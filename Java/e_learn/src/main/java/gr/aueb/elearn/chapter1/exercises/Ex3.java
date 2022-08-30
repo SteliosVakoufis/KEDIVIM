@@ -23,6 +23,8 @@ public class Ex3 {
             }
             break;
         }
+        inpt.close();
+        
         sum = num1 + num2;
         System.out.printf("The result is %d.", sum);
     }
