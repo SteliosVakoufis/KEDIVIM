@@ -11,5 +11,7 @@ public class AbsDemo {
 
         System.out.printf("Absolute of %d is %d",
             myNumber, Math.abs(myNumber));
+        
+        inpt.close();
     }
 }

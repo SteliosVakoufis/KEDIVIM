@@ -15,5 +15,7 @@ public class EvenDemo {
 
         System.out.printf("%s even!",
             isEven ? "Is" : "Not");
+        
+        inpt.close();
     }
 }
