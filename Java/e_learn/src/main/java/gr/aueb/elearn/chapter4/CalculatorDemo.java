@@ -37,5 +37,6 @@ public class CalculatorDemo {
                 break;
         }
 
+        inpt.close();
     }
 }
