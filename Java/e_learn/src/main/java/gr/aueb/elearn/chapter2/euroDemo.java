@@ -1,7 +1,6 @@
 package gr.aueb.elearn.chapter2;
 
 import java.util.Collections;
-import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 

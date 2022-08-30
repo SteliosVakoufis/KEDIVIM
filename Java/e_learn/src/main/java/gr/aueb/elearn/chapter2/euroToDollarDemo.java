@@ -1,5 +1,5 @@
 package gr.aueb.elearn.chapter2;
-import java.util.Currency;
+
 import java.util.Scanner;
 
 /*Exchanges euro to dollars via
