@@ -19,5 +19,6 @@ public class euroToDollarDemo {
         System.out.printf("%d Euros = %d Dollars, %d, Cents\n",
             eurosToConvert, eurosToDollars / 100, eurosToDollars % 100);
 
+        inpt.close();
     }
 }
