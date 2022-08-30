@@ -9,6 +9,7 @@ public class OverflowTypecastDemo {
         long myLong = 40;
 
         i = (int)myLong;
+        System.out.println(i);
 
         long result = myLong + 3;
 
