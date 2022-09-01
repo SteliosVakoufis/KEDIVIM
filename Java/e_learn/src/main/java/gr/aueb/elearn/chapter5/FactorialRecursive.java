@@ -1,7 +1,5 @@
 package gr.aueb.elearn.chapter5;
 
-import java.util.ArrayList;
-import java.util.Map;
 import java.util.Scanner;
 
 // factorial...
