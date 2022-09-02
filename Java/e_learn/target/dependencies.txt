@@ -1,0 +1,4 @@
+digraph "gr.aueb.elearn:e_learn:jar:1.0-SNAPSHOT" { 
+	"gr.aueb.elearn:e_learn:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.11:test" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+ } 
