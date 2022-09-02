@@ -17,8 +17,10 @@ public class FileAppendDemo {
 
         PrintStream ps = new PrintStream(myFile1);
         ps.println("Hello Hello?\n");
+        ps.close();
 
         PrintStream ps2 = new PrintStream(myFile2, true, "UTF-8");
         ps2.println("yay\n");
+        ps2.close();
     }
 }
