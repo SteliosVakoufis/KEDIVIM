@@ -10,9 +10,9 @@ public class StringEqualsMethod {
         );
     }
 
-    private static boolean areStringsEqual(String a, String b){
-        return (a != null && b != null) ? a.equals(b) : false;
-    }
+    // private static boolean areStringsEqual(String a, String b){
+    //     return (a != null && b != null) ? a.equals(b) : false;
+    // }
 
     private static int compareStrings(String a, String b){
         return (a != null && b != null) ? a.compareTo(b) : -100;

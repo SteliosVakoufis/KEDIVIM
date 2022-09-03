@@ -16,9 +16,9 @@ public class EvenDemo {
         return a % 2 == 0;
     }
 
-    private static boolean isOdd(double a){
-        return !(a % 2 == 0);
-    }
+    // private static boolean isOdd(double a){
+    //     return !(a % 2 == 0);
+    // }
 
     private static Double getValidDouble(){
         Scanner inpt = new Scanner(System.in);

@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class RightTriangleDemo {
     public static void main(String[] args) {
         double a = 0, b = 0, c = 0;
-        final double EPSILON = 0.005;
-        boolean isRight = false;
+        // final double EPSILON = 0.005;
+        // boolean isRight = false;
     
         System.out.println("Give me three digits...");
         a = getValidDouble();

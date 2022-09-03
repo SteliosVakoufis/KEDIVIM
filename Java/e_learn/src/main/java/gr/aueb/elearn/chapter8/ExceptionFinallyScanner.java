@@ -8,7 +8,7 @@ public class ExceptionFinallyScanner {
         
         try {
             int i = inpt.nextInt();
-            System.out.println("Your input was ");
+            System.out.println("Your input was " + i);
         } catch (Exception e) {
             System.out.println(e);
             throw e;

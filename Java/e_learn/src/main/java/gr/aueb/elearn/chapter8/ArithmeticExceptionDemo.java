@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class ArithmeticExceptionDemo {
     public static void main(String[] args) {
-        Scanner inpt = new Scanner(System.in);
-        
         System.out.printf("Your two ints are: %d, %d",
             getValidInt(), getValidInt()
         );

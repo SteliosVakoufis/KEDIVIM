@@ -4,12 +4,13 @@ import java.io.IOException;
 
 public class CharReadExceptionDemo {
     public static void main(String[] args) {
-        char ch;
+        char ch = ' ';
         try {
             ch = getChar();
         } catch (IOException e) {
             System.out.println("Λαθος ρε");
         }
+        System.out.println(ch);
     }
 
 
