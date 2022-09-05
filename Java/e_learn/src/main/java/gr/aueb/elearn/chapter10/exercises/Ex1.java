@@ -9,7 +9,7 @@ public class Ex1 {
         int secret = 168;
 
         String encryptedMessage = cipher(message, secret);
-        String decryptedMessage =  decryptCipher(encryptedMessage, secret);
+        String decryptedMessage = decryptCipher(encryptedMessage, secret);
 
         System.out.printf("Original message is: %s\n", message);
         System.out.printf("Encrypted message is: %s\n", encryptedMessage);
@@ -18,20 +18,21 @@ public class Ex1 {
     }
 
     private static String cipher(String msg, int secret) {
-        if (msg.length() == 0) return "?";
+        if (msg.length() == 0)
+            return "?";
         ArrayList<Integer> decimalVals = new ArrayList<>();
 
-        decimalVals.add((int)msg.charAt(0));
+        decimalVals.add((int) msg.charAt(0));
         for (int i = 1; i < msg.length(); i++) {
             if (msg.charAt(i) == '#') {
                 decimalVals.add(-1);
                 break;
             }
-            int additionWithPrev = (int)msg.charAt(i) + (int)msg.charAt(i - 1);
+            int additionWithPrev = (int) msg.charAt(i) + (int) msg.charAt(i - 1);
             int moduloWithSecret = additionWithPrev % secret;
             decimalVals.add(moduloWithSecret);
         }
-        
+
         StringBuilder result = new StringBuilder();
         for (Integer val : decimalVals) {
             result.append(val + " ");
@@ -41,18 +42,22 @@ public class Ex1 {
     }
 
     private static String decryptCipher(String msg, int secret) {
-        if (msg.length() == 0) return "?";
+        if (msg.length() == 0)
+            return "?";
         ArrayList<Integer> decimalVals = stringToArrayList(msg);
         StringBuilder result = new StringBuilder();
 
-        result.append((char)(int)decimalVals.get(0));
+        result.append((char) (int) decimalVals.get(0));
         for (int i = 1; i < decimalVals.size(); i++) {
-            if (decimalVals.get(i) == -1) break;
+            if (decimalVals.get(i) == -1)
+                break;
             int num = decimalVals.get(i) - decimalVals.get(i - 1) + secret;
             decimalVals.set(i, num);
 
-            while (num > secret) num -= secret;
-            if (num < 0) num += secret;
+            while (num > secret)
+                num -= secret;
+            if (num < 0)
+                num += secret;
 
             result.append((char) num);
         }
@@ -60,7 +65,7 @@ public class Ex1 {
         return result.toString();
     }
 
-    private static ArrayList<Integer> stringToArrayList(String data){
+    private static ArrayList<Integer> stringToArrayList(String data) {
         ArrayList<Integer> result = new ArrayList<>();
         String[] values = data.split(" ");
 
