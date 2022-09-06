@@ -15,6 +15,8 @@ public class StackDemo {
         push(myStack, 1223);
 
         prinStack(myStack);
+        
+        System.out.println(peek(myStack));
 
         System.out.println(pop(myStack));
         System.out.println(pop(myStack));
@@ -42,7 +44,7 @@ public class StackDemo {
         return null;
     }
 
-    private static void prinStack(ArrayList<Integer> list){
+    private static void prinStack(ArrayList<Integer> list) {
         list.forEach(val -> System.out.printf("%d ", val));
         System.out.println();
     }
