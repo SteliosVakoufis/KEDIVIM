@@ -5,7 +5,9 @@ import java.util.ArrayList;
 // Encrypt Decrypt Message something something
 public class Ex1 {
     public static void main(String[] args) {
-        String message = "Hey, how is it going? This message doesn't contain any secrets for sure.#";
+        // String message = "Hey, how is it going? This message doesn't contain any
+        // secrets for sure.#";
+        String message = "Hello, how is it going?#";
         int secret = 168;
 
         String encryptedMessage = cipher(message, secret);
@@ -54,14 +56,20 @@ public class Ex1 {
             int num = decimalVals.get(i) - decimalVals.get(i - 1) + secret;
             decimalVals.set(i, num);
 
-            while (num > secret)
-                num -= secret;
-            if (num < 0)
-                num += secret;
+            
+            System.out.print(num + " ");
+            
+            do {
+                if (num > secret)
+                    num -= secret;
+            } while (num > secret);
+
+            System.out.print(num + " ");
 
             result.append((char) num);
         }
 
+        System.out.println();
         return result.toString();
     }
 
