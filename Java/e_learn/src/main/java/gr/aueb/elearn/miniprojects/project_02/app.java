@@ -1,5 +1,6 @@
 package gr.aueb.elearn.miniprojects.project_02;
 
+// Forgot to make a menu :-)
 public class app {
     public static void main(String[] args) {
         MobilePhone myMobilePhone = new MobilePhone(500);

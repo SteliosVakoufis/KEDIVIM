@@ -64,10 +64,6 @@ public class Account {
         }
     }
 
-    public String getAccountState() {
-        return this.toString();
-    }
-
     private void logErrorMessage(Exception toLog) {
         final String LOG_FILE_PATH = "./src/main/java/gr/aueb/elearn/chapter11/resources/";
         
@@ -121,6 +117,6 @@ public class Account {
             System.out.println("Stop it...");
         }
 
-        System.out.println(myAccounts.get(0).getAccountState());
+        System.out.println(myAccounts.get(0).toString());
     }
 }
