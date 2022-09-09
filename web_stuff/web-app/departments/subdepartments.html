@@ -9,15 +9,35 @@
 </head>
 
 <body>
-    <a href="https://www.potatopro.com/product-types/potatoes"><img src="../resources/images/company_logo.png" alt=""></a>
+    <a href="https://www.potatopro.com/product-types/potatoes"><img src="../resources/images/company_logo.png"
+            alt=""></a>
 
     <a href="../index.html">Home Page</a>
     <a href="../departments/departments.html">Departments</a>
     <a href="../departments/subdepartments.html">Sub-Departments</a>
     <a href="../departments/categories.html">Categories</a>
-    
+
     <h1>Sub-Departments Page</h1>
     <hr>
+
+    <form action="" method="post">
+        <label for="departments">Addresses</label>
+        <br>
+        <select name="departments" id="departments">
+            <option value="" selected disabled>Select Address</option>
+            <option value="1">Administrators Address</option>
+            <option value="2">Financial Services Address</option>
+        </select>
+
+        <br>
+        <label for="name">Department: </label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Insert Name" maxlength="50">
+        <br><br>
+
+        <input type="submit" name="submit" value="Submit!" id="submit">
+
+    </form>
 
     <footer>
         <p>© Copyright 1996 - 2022 | Potatoe Manufacturers GR</p>
