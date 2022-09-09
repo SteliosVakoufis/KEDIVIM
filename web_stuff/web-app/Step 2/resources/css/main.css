@@ -73,6 +73,91 @@ body {
     text-align: center;
 }
 
-.container-form {
+.container-page .container-form {
     background-color: lightcoral;
+    width: 25%;
+    margin: auto;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container-page .container-form label {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+.container-page .container-form input[type=text],
+input[type=email],
+input[type=password] {
+    border: 2px solid lightblue;
+    border-us: 5px;
+    padding: 5px 0 5px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.container-page .container-form input[type=submit] {
+    width: 100%;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.container-page .container-form input[type=submit]:hover {
+    background: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+
+.container-page .container-form select {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container-page .container-form .radio-select {
+    width: 20%;
+}
+
+#show-table {
+    width: 70%;
+    margin: auto;
+    color: white;
+    cursor: default;
+}
+
+#show-table td,
+#show-table th {
+    border: 3px solid black;
+    border-radius: 2px;
+    color: brown;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 0.8%;
+}
+
+#show-table th {
+    background-color: darkgreen;
+    color: black;
+}
+
+#show-table tr:nth-child(even) {
+    background-color: white;
+}
+
+#show-table td:hover {
+    background-color: antiquewhite;
+}
+
+#return-back a{
+    color: red;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#return-back a:hover {
+    color:blue;
 }
