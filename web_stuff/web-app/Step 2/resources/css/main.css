@@ -1,0 +1,78 @@
+body {
+    background-color: lightgray;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.topnav {
+    background-color: blueviolet;
+    width: 100%;
+    height: 10vmin;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.topnav a {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    display: inline-block;
+    line-height: 400%;
+    text-decoration: none;
+    padding: 0 1% 0 1%;
+    height: 4em;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.topnav .nav-img {
+    width: 10%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.topnav a:hover {
+    color: white;
+    background-color: rgb(35, 121, 150);
+}
+
+.topnav .active {
+    color: white;
+    background-color: rgb(35, 121, 150);
+}
+
+.topnav a img {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+}
+
+.main-page h1 {
+    text-align: center;
+}
+
+.main-page img {
+    display: block;
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 20%;
+    height: auto;
+}
+
+.container-page h1 {
+    text-align: center;
+    background-color: brown;
+    margin: 0 0 0 0;
+}
+
+.container-page {
+    text-align: center;
+}
+
+.container-form {
+    background-color: lightcoral;
+}

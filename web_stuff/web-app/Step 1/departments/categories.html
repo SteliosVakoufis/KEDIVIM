@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="./resources/css/main.css">
+    <title>🌍Hello world!🌍</title>
+</head>
+
+<body>
+    <a href="https://www.potatopro.com/product-types/potatoes"><img src="../resources/images/company_logo.png" alt=""></a>
+
+    <a href="../index.html">Home Page</a>
+    <a href="../departments/departments.html">Departments</a>
+    <a href="../departments/subdepartments.html">Sub-Departments</a>
+    <a href="../departments/categories.html">Categories</a>
+    
+    <h1>Categories Page</h1>
+    <hr>
+
+    <form action="" method="post">
+        <label for="departments">Address: </label>
+        <br>
+        <select name="departments" id="departments">
+            <option value="" selected disabled> Select Address</option>
+            <option value="1">Administrative Department</option>
+            <option value="2">Financial Services Department</option>
+        </select>
+        <br>
+
+        <label for="subdepartments">Departments</label>
+        <br>
+        <select name="subdepartments" id="subdepartments">
+            <option value="" selected disabled>Select Sub-Departments</option>
+            <option value="1">Personel Department</option>
+            <option value="2">Supliers Department</option>
+        </select>
+        <br>
+
+        <label for="name">Category</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Insert name">
+        <br><br>
+
+        <input type="submit" id="submit" value="submit">
+        <hr>
+
+        <table border="2px">
+            <tr>
+                <th>Address</th>
+                <th>Identifier</th>
+                <th>Department</th>
+                <th>Category</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Administrative Address</td>
+                    <td>1</td>
+                    <td>Personel Department</td>
+                    <td>Personel Announcements</td>
+                </tr>
+                <tr>
+                    <td>Administrative Department</td>
+                    <td>2</td>
+                    <td>Supplier Department</td>
+                    <td>Supplier Announcements</td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+    </form>
+
+    <footer>
+        <p>© Copyright 1996 - 2022 | Potatoe Manufacturers GR</p>
+    </footer>
+
+</body>
+
+</html>
