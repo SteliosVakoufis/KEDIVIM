@@ -12,9 +12,9 @@ public class app {
         populateSitRows(sitRows);
 
         Scanner inpt = new Scanner(System.in);
-        try (inpt;) {
+        while (true) {
+            try {
 
-            while (true) {
                 System.out.println("(B)ook | (C)ancel | (E)xit");
                 String operation = inpt.next();
 
@@ -24,7 +24,14 @@ public class app {
                     break;
 
                 System.out.println("Give a valid sit number ex. \"D 10\"");
+
                 String column = inpt.next();
+                if (!((int)column.charAt(0) >= 65 && (int)column.charAt(0) <= 77)){
+                    inpt.nextLine();
+                    System.out.println("Error: Insert a valid column letter.\n");
+                    continue;
+                }
+
                 int row = inpt.nextInt();
 
                 if (operation.charAt(0) == 'B') {
@@ -33,14 +40,13 @@ public class app {
                     cancel(column.charAt(0), row);
                 }
 
+            } catch (Exception e) {
                 inpt.nextLine();
+                e.printStackTrace();
+                System.err.println("Error: Please insert a valid input.");
             }
-
-            inpt.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.err.println("Please insert a valid input.");
         }
+        inpt.close();
 
     }
 
@@ -49,7 +55,7 @@ public class app {
             sits[row][sitRows.get("" + col)] = false;
             System.out.println("You canceled a sit!");
         } else {
-            System.err.println("This sit is not booked.");
+            System.err.println("Error: This sit is not booked.");
         }
     }
 
@@ -58,12 +64,12 @@ public class app {
             sits[row][sitRows.get("" + col)] = true;
             System.out.println("You booked a sit!");
         } else {
-            System.err.println("This sit is already booked.");
+            System.err.println("Error: This sit is already booked.");
         }
     }
 
     private static void populateSitRows(Map<String, Integer> map) {
-        for (int i = 65; i <= 77; i++) {
+        for (int i = 65; i < 77; i++) {
             map.put("" + (char) i, i - 65);
         }
     }

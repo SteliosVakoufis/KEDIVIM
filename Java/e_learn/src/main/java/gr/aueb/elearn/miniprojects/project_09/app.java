@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class app {
     public static void main(String[] args) {
-        String myStr = "Hello world!#";
-        int myKey = 168;
+        String myStr = "Alice#";
+        int myKey = 300;
 
         System.out.println("Original: " + myStr);
 

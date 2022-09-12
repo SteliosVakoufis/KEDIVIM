@@ -4,7 +4,7 @@ public class app {
     public static void main(String[] args) {
         Integer[] myArr = { 0, 1, 4, 4, 4, 6, 7, 8, 8, 8, 8, 8 };
 
-        Integer[] set = findRepeatingElementStartEnd(myArr, 4);
+        Integer[] set = findRepeatingElementStartEnd(myArr, 8);
 
         System.out.printf("%d -> %d", set[0], set[1]);
 

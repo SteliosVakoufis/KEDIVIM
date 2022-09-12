@@ -21,7 +21,7 @@ public class TicTacToe {
                     System.out.println("Thanks for playing!");
                     break;
                 }
-                
+
                 int y = inpt.nextInt();
                 if (y == -1) {
                     System.out.println("Thanks for playing!");
@@ -63,10 +63,12 @@ public class TicTacToe {
             return;
         }
 
+        int isDraw = 0;
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 row += this.table[i][j];
                 column += this.table[j][i];
+                isDraw += this.table[i][j];
             }
             if (row == 264 || row == 237) {
                 if (row == 264)
@@ -81,6 +83,10 @@ public class TicTacToe {
                     this.scoreP1++;
                 else
                     this.scoreP2++;
+                initTable();
+                return;
+            }
+            if (isDraw == 756) {
                 initTable();
                 return;
             }
