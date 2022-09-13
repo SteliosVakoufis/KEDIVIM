@@ -55,8 +55,8 @@ public class Account {
             this.balance -= amount;
         else {
             try {
-                throw new Exception("Negative amount");
-            } catch (Exception e) {
+                throw new NegativeAmountException(amount);
+            } catch (NegativeAmountException e) {
                 System.err.println(e);
                 logErrorMessage(e);
                 throw e;
