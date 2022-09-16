@@ -1,0 +1,202 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-box">
+
+        <h1>MVC Design Pattern</h1>
+
+        <div>
+            The Model View Controller (MVC) design pattern specifies that an application consist of a data model,
+            presentation information, and control information. The pattern requires that each of these be separated into
+            different objects.
+
+            MVC is more of an architectural pattern, but not for complete application. MVC mostly relates to the UI /
+            interaction layer of an application. You’re still going to need business logic layer, maybe some service
+            layer and data access layer.
+
+            <h2>UML Diagram MVC Design Pattern</h2>
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/MVC-Design-Pattern.png" alt="">
+        </div>
+
+        <div>
+            <h2>Design components</h2>
+            <ul>
+                <li>
+                    The Model contains only the pure application data, it contains no logic describing how to present
+                    the data to a user.
+                </li>
+                <li>
+                    The View presents the model’s data to the user. The view knows how to access the model’s data, but
+                    it does not know what this data means or what the user can do to manipulate it.
+                </li>
+                <li>
+                    The Controller exists between the view and the model. It listens to events triggered by the view (or
+                    another external source) and executes the appropriate reaction to these events. In most cases, the
+                    reaction is to call a method on the model. Since the view and the model are connected through a
+                    notification mechanism, the result of this action is then automatically reflected in the view.
+                </li>
+            </ul>
+        </div>
+
+        <h3>Let’s see an example of MVC Design Pattern.</h3>
+
+        <pre class="code-box">
+    class Student
+    {
+        private String rollNo;
+        private String name;
+
+        public String getRollNo()
+        {
+            return rollNo;
+        }
+
+        public void setRollNo(String rollNo)
+        {
+            this.rollNo = rollNo;
+        }
+
+        public String getName()
+        {
+            return name;
+        }
+
+        public void setName(String name)
+        {
+            this.name = name;
+        }
+    }
+
+    class StudentView
+    {
+        public void printStudentDetails(String studentName, String studentRollNo)
+        {
+            System.out.println("Student: ");
+            System.out.println("Name: " + studentName);
+            System.out.println("Roll No: " + studentRollNo);
+        }
+    }
+
+    class StudentController
+    {
+        private Student model;
+        private StudentView view;
+
+        public StudentController(Student model, StudentView view)
+        {
+            this.model = model;
+            this.view = view;
+        }
+
+        public void setStudentName(String name)
+        {
+            model.setName(name);
+        }
+
+        public String getStudentName()
+        {
+            return model.getName();
+        }
+
+        public void setStudentRollNo(String rollNo)
+        {
+            model.setRollNo(rollNo);
+        }
+
+        public String getStudentRollNo()
+        {
+            return model.getRollNo();
+        }
+
+        public void updateView()
+        {
+            view.printStudentDetails(model.getName(), model.getRollNo());
+        }
+    }
+
+    class MVCPattern
+    {
+        public static void main(String[] args)
+        {
+            Student model = retriveStudentFromDatabase();
+
+            StudentView view = new StudentView();
+
+            StudentController controller = new StudentController(model, view);
+
+            controller.updateView();
+
+            controller.setStudentName("Vikram Sharma");
+
+            controller.updateView();
+        }
+
+        private static Student retriveStudentFromDatabase()
+        {
+            Student student = new Student();
+            student.setName("Lokesh Sharma");
+            student.setRollNo("15UCS157");
+            return student;
+        }
+
+    }
+        </pre>
+
+        <fieldset>
+            <legend>Output:</legend>
+            <pre>
+    Student: 
+    Name: Lokesh Sharma
+    Roll No: 15UCS157
+    Student: 
+    Name: Vikram Sharma
+    Roll No: 15UCS157
+            </pre>
+        </fieldset>
+
+        <div>
+            <h3>Advantages</h3>
+
+            <ul>
+                <li>
+                    Multiple developers can work simultaneously on the model, controller and views.
+                </li>
+                <li>
+                    MVC enables logical grouping of related actions on a controller together. The views for a specific
+                    model are also grouped together.
+                </li>
+                <li>
+                    Models can have multiple views.
+                </li>
+            </ul>
+
+            <h3>Disadvantages</h2>
+
+            <ul>
+                <li>
+                    The framework navigation can be complex because it introduces new layers of abstraction and requires
+                    users to adapt to the decomposition criteria of MVC.
+                </li>
+                <li>
+                    Knowledge on multiple technologies becomes the norm. Developers using MVC need to be skilled in
+                    multiple technologies.
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <footer>
+        This article is contributed by <a href="https://github.com/saketkumar95">Saket Kumar</a>. 
+    </footer>
+</body>
+
+</html>

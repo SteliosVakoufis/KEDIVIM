@@ -1,0 +1,16 @@
+.px-7 {
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+}
+
+.mt-6 {
+    padding-top: 5rem !important;
+}
+
+.mt-7 {
+    padding-top: 10rem !important;
+}
+
+.intro_image img {
+    width: 100%;
+}

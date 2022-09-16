@@ -3,20 +3,43 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="./resources/css/main.css">
     <title>🌍Hello world!🌍</title>
+
 </head>
 
 <body>
     <div class="topnav">
-        <a class="nav-img" href="https://www.potatopro.com/product-types/potatoes"><img src="./resources/images/company_logo.png"
-                alt=""></a>
+        <a class="nav-img" href="https://www.potatopro.com/product-types/potatoes"><img
+                src="./resources/images/company_logo.png" alt=""></a>
         <a class="fa-solid fa-house active" href="./index.html"></a>
-        <a href="./announcements/announcements.html">Announcements</a>
-        <a href="./departments/departments.html">Departments</a>
-        <a href="./users/users.html">Users</a>
+        <div class="dropdown">
+            <button class="dropbtn">Announcements  </button>
+            <div class="dropdown-content">
+                <a href="./announcements/announcements.html">Announcements</a>
+                <a href="./announcements/subscription.html">Subscriptions</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Departments</button>
+            <div class="dropdown-content">
+                <a href="./departments/departments.html">Departments</a>
+                <a href="./departments/subdepartments.html">Sub-Departments</a>
+                <a href="./departments/categories.html">Categories</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Users</button>
+            <div class="dropdown-content">
+                <a href="./users/users.html">Users</a>
+                <a href="./users/users-category.html">Categories</a>
+                <a href="./users/roles.html">Roles</a>
+            </div>
+        </div>
         <a href="./about.html">About</a>
     </div>
     <div class="main-page">

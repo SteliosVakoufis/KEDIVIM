@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #6495ed;
+            font-size: 20px;
+        }
+
+        .login-body {
+            background-color: #ffffff;
+            color: #8b8c8c;
+            border-radius: 12px;
+            width: 20%;
+            padding: 0.7% 1.5% 2% 1.5%;
+            text-align: center;
+            margin: auto;
+        }
+
+        .login-body form input {
+            background-color: #faf4f4;
+            border: none;
+            border-radius: 8px;
+            padding: 10px;
+            width: 100%;
+            height: 5%;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .login-body form input[type=submit] {
+            background-color: #6495ed;
+            color: white;
+        }
+
+        .login-body form input[type=submit]:hover {
+            background-color: #4580ef;
+            border: 2px solid rgb(73, 73, 73);
+        }
+
+        .login-body a:visited {
+            color: #8b8c8c;
+        }
+
+        .sign-up {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            width: 25%;
+            margin: auto;
+            margin-top: 25px;
+        }
+
+        .sign-up a:visited {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-body">
+        <form action="" method="get">
+            <h1>Login</h1>
+
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <input type="submit" name="submit" id="submit" value="Sign In">
+
+            <a href="https://google.com/">Lost your password?</a>
+
+        </form>
+    </div>
+
+    <div class="sign-up">
+        Don't have an account? <a href="https://google.com/"> Sign up here!</a>
+    </div>
+
+</body>
+
+</html>

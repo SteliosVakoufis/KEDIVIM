@@ -22,7 +22,7 @@ body {
     line-height: 400%;
     text-decoration: none;
     padding: 0 1% 0 1%;
-    height: 4em;
+    height: 100%;
     text-align: center;
     overflow: hidden;
     vertical-align: top;
@@ -51,6 +51,81 @@ body {
     width: 100%;
 }
 
+.topnav .dropdown .dropbtn {
+    font-size: 1em;
+    display: inline-block;
+    line-height: 400%;
+    text-decoration: none;
+    padding: 0 1% 0 1%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: top;
+    background: blueviolet;
+    color: black;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+.topnav .dropdown .dropdown-content a {
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+.topnav .dropdown .dropbtn:hover {
+    color: white;
+    background-color: rgb(35, 121, 150);
+    border-color: aqua;
+}
+/* CSS For Dropdown Menu */
+.topnav .dropbtn {
+    background-color: #333;
+    color: #f2f2f2;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+}
+
+.topnav .dropdown {
+    display: inline-block;
+    height: 100%;
+}
+
+.topnav .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 240px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.topnav .dropdown .dropdown-content a {
+    color: black;
+    text-align: left;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.topnav .dropdown .dropdown-content a:hover {
+    background-color: cadetblue;
+}
+
+.topnav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.topnav .dropdown .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+
+/* End Dropdown Menu */
+
 .main-page h1 {
     text-align: center;
 }
@@ -75,7 +150,7 @@ body {
 }
 
 .container-page .container-form {
-    background-color: lightcoral;
+    background-color: rgb(136, 104, 104);
     width: 25%;
     margin: auto;
     padding: 1%;
@@ -153,12 +228,12 @@ input[type=password] {
     background-color: antiquewhite;
 }
 
-#return-back a{
+#return-back a {
     color: red;
     text-decoration: none;
     font-size: 17px;
 }
 
 #return-back a:hover {
-    color:blue;
+    color: blue;
 }

@@ -1,0 +1,57 @@
+body {
+    background: #131417;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+
+footer {
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    border-bottom: none;
+    border-radius: 15px 15px 0px 0px;
+}
+
+footer a {
+    color: #ec4e20;
+}
+
+footer a:visited {
+    color: #308d46;
+}
+
+.main-box h2 {
+    text-align: center;
+}
+
+.main-box {
+    padding: 0 27% 0 27%;
+}
+
+.main-box img {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: auto;
+}
+
+.main-box .code-box {
+    background: #272822;
+    border: 1px solid whitesmoke;
+    padding: 25px 10px 25px 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0px 10% 0px 10%;
+    font-size: 0.8em;
+    word-wrap: break-word;
+    overflow-x: auto;
+}
+
+.main-box fieldset {
+    background-color: #2a2a2c;
+    border-radius: 25px;
+    width: 70%;
+    margin: 25px 15% 0px 15%;
+}

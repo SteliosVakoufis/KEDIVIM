@@ -1,0 +1,158 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main-form {
+            border: 1px solid black;
+            border-radius: 25px;
+            width: 30vmax;
+            padding: 10px;
+        }
+
+        .red-underline-asterisk {
+            color: red;
+            border-bottom: 1px red dashed;
+            display: inline;
+        }
+
+        tbody tr td {
+            width: 40%;
+        }
+
+        tbody tr td label {
+            text-align: right;
+            display: block;
+        }
+
+        tbody tr td select {
+            margin: 8px 0 8px 0;
+        }
+
+        tbody tr td input[type=date],
+        input[type=text],
+        input[type=number],
+        input[type=email],
+        input[type=password] {
+            width: 100%;
+            margin: 8px 0 8px 0;
+        }
+
+        form th {
+            font-size: 20px;
+            padding: 10px 0 10px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main-form">
+        <h1>
+            Φόρμα Πληρωμής
+        </h1>
+
+        <form action="" method="get">
+
+            <div>Τα υποχρεωτικά πεδία ακολουθούνται απο <div class="red-underline-asterisk">*</div>.</div>
+
+            <table>
+                <th>Προσωπικά Στοιχεία</th>
+
+                <tbody>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <fieldset>
+                                <legend>Title</legend>
+                                <input type="radio" name="title" value="mr"> Mr.
+                                <br>
+                                <input type="radio" name="title" value="mrs"> Mrs.
+                                <br>
+                                <input type="radio" name="title" value="dr"> Dr.
+                            </fieldset>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="name">Name:<div class="red-underline-asterisk">*</div></label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="email">E-mail:<div class="red-underline-asterisk">*</div></label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="password">Password:<div class="red-underline-asterisk">*</div></label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password" required>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <th>Πληροφορίες Πληρωμής</th>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="card-type">Card type:</label>
+                        </td>
+                        <td>
+                            <select name="card-type" id="card-type" required>
+                                <option value="def" selected disabled>Select card type</option>
+                                <option value="visa">Visa</option>
+                                <option value="master">Master Card</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="card-number">Card Number:<div class="red-underline-asterisk">*</div></label>
+                        </td>
+                        <td>
+                            <input type="number" name="card-number" id="card-number" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="expiration-date">Expiration date:<div class="red-underline-asterisk">*</div>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="date" name="expiration-date" id="expiration-date" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="submit" id="submit" value="Προχωρήστε στην πληρωμή">
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
