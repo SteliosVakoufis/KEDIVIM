@@ -10,13 +10,14 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Getter
-@Setter
+@Setter 
 @AllArgsConstructor
-@NoArgsConstructor
-@ToString
+@NoArgsConstructor 
+@ToString 
 @EqualsAndHashCode
 public class Contact implements Serializable {
     private Long id;
     private String firstName;
     private String lastName;
+
 }
