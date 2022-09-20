@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import javax.sound.sampled.SourceDataLine;
-
 public class App {
     public static void main(String[] args) {
         List<String> myArrayList = new ArrayList<>();
@@ -21,6 +19,8 @@ public class App {
         myArrayList = myArrayList.stream().map(s -> func.myFunc(s)).collect(Collectors.toList());
         myArrayList.forEach(s -> myFunc(s));
 
+        System.out.println();
+        myArrayList.forEach(App::myFunc);
     }
 
     private static void myFunc(String s) {
