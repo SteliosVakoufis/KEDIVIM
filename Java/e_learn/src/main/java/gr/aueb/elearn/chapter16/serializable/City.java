@@ -1,7 +1,8 @@
-package gr.aueb.elearn.chapter16.cloneable;
+package gr.aueb.elearn.chapter16.serializable;
+
+import java.io.Serializable;
 
 import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -12,7 +13,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class City implements Cloneable {
+public class City implements Cloneable, Serializable {
     private String description;
 
     public City(City city) {

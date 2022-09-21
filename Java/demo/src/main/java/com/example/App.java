@@ -21,6 +21,9 @@ public class App {
 
         System.out.println();
         myArrayList.forEach(App::myFunc);
+
+        System.out.println();
+        MyClass mc = new MyClass();
     }
 
     private static void myFunc(String s) {
