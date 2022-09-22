@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\bin\Debug\net6.0\ConsoleOutputDemo.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\bin\Debug\net6.0\ConsoleOutputDemo.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\bin\Debug\net6.0\ConsoleOutputDemo.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\bin\Debug\net6.0\ConsoleOutputDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\bin\Debug\net6.0\ConsoleOutputDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\ConsoleOutputDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\ConsoleOutputDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\ConsoleOutputDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\ConsoleOutputDemo.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\ConsoleOutputDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\ConsoleOutputDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\refint\ConsoleOutputDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\ConsoleOutputDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\ConsoleOutputDemo.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ConsoleOutputDemo\obj\Debug\net6.0\ref\ConsoleOutputDemo.dll

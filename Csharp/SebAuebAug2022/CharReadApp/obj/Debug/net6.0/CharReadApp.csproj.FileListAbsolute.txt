@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\bin\Debug\net6.0\CharReadApp.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\bin\Debug\net6.0\CharReadApp.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\bin\Debug\net6.0\CharReadApp.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\bin\Debug\net6.0\CharReadApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\bin\Debug\net6.0\CharReadApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\CharReadApp.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\CharReadApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\CharReadApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\CharReadApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\CharReadApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\CharReadApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\refint\CharReadApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\CharReadApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\CharReadApp.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\CharReadApp\obj\Debug\net6.0\ref\CharReadApp.dll

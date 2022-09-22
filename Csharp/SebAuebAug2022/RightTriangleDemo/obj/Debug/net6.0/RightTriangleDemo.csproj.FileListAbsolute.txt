@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\bin\Debug\net6.0\RightTriangleDemo.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\bin\Debug\net6.0\RightTriangleDemo.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\bin\Debug\net6.0\RightTriangleDemo.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\bin\Debug\net6.0\RightTriangleDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\bin\Debug\net6.0\RightTriangleDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\RightTriangleDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\RightTriangleDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\RightTriangleDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\RightTriangleDemo.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\RightTriangleDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\RightTriangleDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\refint\RightTriangleDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\RightTriangleDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\RightTriangleDemo.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\RightTriangleDemo\obj\Debug\net6.0\ref\RightTriangleDemo.dll

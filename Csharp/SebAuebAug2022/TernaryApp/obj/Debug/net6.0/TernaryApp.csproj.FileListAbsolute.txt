@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\bin\Debug\net6.0\TernaryApp.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\bin\Debug\net6.0\TernaryApp.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\bin\Debug\net6.0\TernaryApp.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\bin\Debug\net6.0\TernaryApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\bin\Debug\net6.0\TernaryApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\TernaryApp.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\TernaryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\TernaryApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\TernaryApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\TernaryApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\TernaryApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\refint\TernaryApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\TernaryApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\TernaryApp.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\TernaryApp\obj\Debug\net6.0\ref\TernaryApp.dll

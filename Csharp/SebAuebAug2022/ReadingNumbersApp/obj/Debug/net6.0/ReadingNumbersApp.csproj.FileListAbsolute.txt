@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\bin\Debug\net6.0\ReadingNumbersApp.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\bin\Debug\net6.0\ReadingNumbersApp.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\bin\Debug\net6.0\ReadingNumbersApp.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\bin\Debug\net6.0\ReadingNumbersApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\bin\Debug\net6.0\ReadingNumbersApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\ReadingNumbersApp.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\ReadingNumbersApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\ReadingNumbersApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\ReadingNumbersApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\ReadingNumbersApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\ReadingNumbersApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\refint\ReadingNumbersApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\ReadingNumbersApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\ReadingNumbersApp.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ReadingNumbersApp\obj\Debug\net6.0\ref\ReadingNumbersApp.dll

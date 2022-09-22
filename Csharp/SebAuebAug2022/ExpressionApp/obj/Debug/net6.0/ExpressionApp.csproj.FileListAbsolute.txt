@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\bin\Debug\net6.0\ExpressionApp.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\bin\Debug\net6.0\ExpressionApp.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\bin\Debug\net6.0\ExpressionApp.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\bin\Debug\net6.0\ExpressionApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\bin\Debug\net6.0\ExpressionApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\ExpressionApp.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\ExpressionApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\ExpressionApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\ExpressionApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\ExpressionApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\ExpressionApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\refint\ExpressionApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\ExpressionApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\ExpressionApp.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\ExpressionApp\obj\Debug\net6.0\ref\ExpressionApp.dll
