@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\bin\Debug\net6.0\MinMaxArrayDemo.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\bin\Debug\net6.0\MinMaxArrayDemo.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\bin\Debug\net6.0\MinMaxArrayDemo.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\bin\Debug\net6.0\MinMaxArrayDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\bin\Debug\net6.0\MinMaxArrayDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\MinMaxArrayDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\MinMaxArrayDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\MinMaxArrayDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\MinMaxArrayDemo.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\MinMaxArrayDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\MinMaxArrayDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\refint\MinMaxArrayDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\MinMaxArrayDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\MinMaxArrayDemo.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\MinMaxArrayDemo\obj\Debug\net6.0\ref\MinMaxArrayDemo.dll

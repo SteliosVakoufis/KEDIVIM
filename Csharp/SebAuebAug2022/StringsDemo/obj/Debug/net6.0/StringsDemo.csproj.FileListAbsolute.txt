@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\bin\Debug\net6.0\StringsDemo.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\bin\Debug\net6.0\StringsDemo.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\bin\Debug\net6.0\StringsDemo.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\bin\Debug\net6.0\StringsDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\bin\Debug\net6.0\StringsDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\StringsDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\StringsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\StringsDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\StringsDemo.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\StringsDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\StringsDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\refint\StringsDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\StringsDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\StringsDemo.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StringsDemo\obj\Debug\net6.0\ref\StringsDemo.dll

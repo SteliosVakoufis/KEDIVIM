@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\bin\Debug\net6.0\Exercise3.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\bin\Debug\net6.0\Exercise3.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\bin\Debug\net6.0\Exercise3.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\bin\Debug\net6.0\Exercise3.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\bin\Debug\net6.0\Exercise3.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\Exercise3.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\Exercise3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\Exercise3.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\Exercise3.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\Exercise3.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\Exercise3.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\refint\Exercise3.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\Exercise3.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\Exercise3.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\Exercises\Chapter1\Exercise3\obj\Debug\net6.0\ref\Exercise3.dll

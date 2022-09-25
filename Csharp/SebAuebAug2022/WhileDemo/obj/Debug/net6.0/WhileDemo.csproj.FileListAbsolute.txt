@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\bin\Debug\net6.0\WhileDemo.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\bin\Debug\net6.0\WhileDemo.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\bin\Debug\net6.0\WhileDemo.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\bin\Debug\net6.0\WhileDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\bin\Debug\net6.0\WhileDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\WhileDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\WhileDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\WhileDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\WhileDemo.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\WhileDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\WhileDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\refint\WhileDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\WhileDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\WhileDemo.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\WhileDemo\obj\Debug\net6.0\ref\WhileDemo.dll

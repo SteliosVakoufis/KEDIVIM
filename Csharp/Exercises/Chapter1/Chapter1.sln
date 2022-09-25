@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise2", "Exercise2\Exercise2.csproj", "{2B03AA30-0B73-464D-9D20-1D6BDB2D95D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise3", "Exercise3\Exercise3.csproj", "{50DB8DB3-3381-4F09-94A8-272AB13FBBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1", "Exercise1\Exercise1.csproj", "{EFC16B44-5D73-4409-93D7-062A529FD391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B03AA30-0B73-464D-9D20-1D6BDB2D95D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B03AA30-0B73-464D-9D20-1D6BDB2D95D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B03AA30-0B73-464D-9D20-1D6BDB2D95D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B03AA30-0B73-464D-9D20-1D6BDB2D95D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DB8DB3-3381-4F09-94A8-272AB13FBBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DB8DB3-3381-4F09-94A8-272AB13FBBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DB8DB3-3381-4F09-94A8-272AB13FBBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DB8DB3-3381-4F09-94A8-272AB13FBBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC16B44-5D73-4409-93D7-062A529FD391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC16B44-5D73-4409-93D7-062A529FD391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC16B44-5D73-4409-93D7-062A529FD391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC16B44-5D73-4409-93D7-062A529FD391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88518EFE-66C7-4260-8157-21365E5226A6}
+	EndGlobalSection
+EndGlobal

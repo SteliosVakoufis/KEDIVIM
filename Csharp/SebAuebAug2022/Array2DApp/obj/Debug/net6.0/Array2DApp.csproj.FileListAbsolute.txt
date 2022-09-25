@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\bin\Debug\net6.0\Array2DApp.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\bin\Debug\net6.0\Array2DApp.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\bin\Debug\net6.0\Array2DApp.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\bin\Debug\net6.0\Array2DApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\bin\Debug\net6.0\Array2DApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\Array2DApp.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\Array2DApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\Array2DApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\Array2DApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\Array2DApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\Array2DApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\refint\Array2DApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\Array2DApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\Array2DApp.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\Array2DApp\obj\Debug\net6.0\ref\Array2DApp.dll

@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\bin\Debug\net6.0\SwitchDemo.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\bin\Debug\net6.0\SwitchDemo.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\bin\Debug\net6.0\SwitchDemo.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\bin\Debug\net6.0\SwitchDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\bin\Debug\net6.0\SwitchDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\SwitchDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\SwitchDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\SwitchDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\SwitchDemo.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\SwitchDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\SwitchDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\refint\SwitchDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\SwitchDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\SwitchDemo.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\SwitchDemo\obj\Debug\net6.0\ref\SwitchDemo.dll

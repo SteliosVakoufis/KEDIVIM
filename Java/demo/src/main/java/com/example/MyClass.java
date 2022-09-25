@@ -4,12 +4,14 @@ public class MyClass {
 
     public static class MyClass2 {
         enum myEnum {
-            CONTROLLER,
-            MENU
+            ERROR1,
+            ERROR2,
+            ERROR3,
+            ERROR4
         }
 
         public static void main(String[] args) {
-            System.out.println(myEnum.CONTROLLER.ordinal());
+            
         }
     }
 

@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\bin\Debug\net6.0\PalindromeDemo.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\bin\Debug\net6.0\PalindromeDemo.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\bin\Debug\net6.0\PalindromeDemo.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\bin\Debug\net6.0\PalindromeDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\bin\Debug\net6.0\PalindromeDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\PalindromeDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\PalindromeDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\PalindromeDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\PalindromeDemo.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\PalindromeDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\PalindromeDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\refint\PalindromeDemo.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\PalindromeDemo.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\PalindromeDemo.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\PalindromeDemo\obj\Debug\net6.0\ref\PalindromeDemo.dll

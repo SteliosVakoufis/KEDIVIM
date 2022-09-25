@@ -1,0 +1,422 @@
+<mxfile host="65bd71144e">
+    <diagram id="LQdhCHWKUhrwh8P5VfjJ" name="Page-1">
+        <mxGraphModel dx="848" dy="611" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#4D4D4D" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="64" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;MODEL&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeWidth=3;rounded=0;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="886" y="188" width="293" height="346" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;DAO&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeWidth=3;rounded=0;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="-14" y="20" width="871" height="938" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 9px&quot;&gt;&lt;i style=&quot;font-size: 9px&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 9px&quot;&gt;&lt;b style=&quot;font-size: 9px&quot;&gt;IAccount&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 9px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 9px&quot;&gt;+ accnfo : AccountInfo&lt;br style=&quot;font-size: 9px&quot;&gt;+ user : User&lt;/p&gt;&lt;hr style=&quot;font-size: 9px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 9px&quot;&gt;+ deposit(amount : double) : Optional&amp;lt;Double&amp;gt;&lt;br style=&quot;font-size: 9px&quot;&gt;+ withdraw(amount : double) : Optional&amp;lt;Double&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 9px&quot;&gt;+ isSssnValid(ssn : String) : boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 9px&quot;&gt;+ isValidIban(iban : String) : boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 9px&quot;&gt;+ getAccountBalance() : Optional&amp;lt;Double&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 9px&quot;&gt;+ toString() : String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=9;fontFamily=Helvetica;html=1;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="590.5" y="60" width="210" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;fontSize=9;dashed=1;strokeWidth=2;rounded=0;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&amp;lt;&amp;lt;implements&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;rounded=0;" parent="7" vertex="1" connectable="0">
+                    <mxGeometry x="0.3524" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=none;html=1;fontSize=9;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;strokeWidth=2;rounded=0;dashed=1;" parent="1" source="3" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Account" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="590.5" y="294" width="209.5" height="237" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;&lt;get/set&gt;&gt; - accnfo : AccountInfo&#10;&lt;&lt;get/set&gt;&gt; - user : User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="3" vertex="1">
+                    <mxGeometry y="26" width="209.5" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="3" vertex="1">
+                    <mxGeometry y="57" width="209.5" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="+ Account(holder: User, accnfo : AccountInfo)&#10;+ Account(accnfo : AccountInfo)&#10;+ Account()&#10;&#10;+ deposit(amount : double) : Optional&lt;Double&gt;&#10;+ withdraw(amount : double) : Optional&lt;Double&gt;&#10;+ isSssnValid(ssn : String) : boolean&#10;+ isValidIban(iban : String) : boolean&#10;+ getAccountBalance() : Optional&lt;Double&gt;&#10;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="3" vertex="1">
+                    <mxGeometry y="65" width="209.5" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;fontSize=9;entryX=-0.013;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;rounded=0;" parent="1" source="8" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="479" y="579"/>
+                            <mxPoint x="479" y="467"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;rounded=0;" parent="12" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2484" y="-1" relative="1" as="geometry">
+                        <mxPoint x="56" y="-53" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;html=1;fontSize=9;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;rounded=0;" parent="1" source="8" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="64" y="589"/>
+                            <mxPoint x="64" y="894"/>
+                            <mxPoint x="477" y="894"/>
+                            <mxPoint x="477" y="774"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="OverdraftAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="548" width="321" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="8" vertex="1">
+                    <mxGeometry y="26" width="321" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="+ OverdraftAccount(holder : User, accnfo : AccountInfo)&#10;&#10;+ withdraw(amount : double) : Optional&lt;Double&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="8" vertex="1">
+                    <mxGeometry y="34" width="321" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;fontSize=9;strokeWidth=2;rounded=0;" parent="1" source="28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="588" y="406" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="476" y="431"/>
+                            <mxPoint x="476" y="406"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;rounded=0;" parent="32" vertex="1" connectable="0">
+                    <mxGeometry x="0.1527" y="-1" relative="1" as="geometry">
+                        <mxPoint x="19" y="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="JointAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="337" width="321" height="187" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;&lt;get/set&gt;&gt; - firstHolder : User&#10;&lt;&lt;get/set&gt;&gt; - secondHolder : User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="28" vertex="1">
+                    <mxGeometry y="26" width="321" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="28" vertex="1">
+                    <mxGeometry y="59" width="321" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="+ JointAccount(firstHolder : User, secondHolder : User, accnfo : AccountInfo)&#10;&#10;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="28" vertex="1">
+                    <mxGeometry y="67" width="321" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;fontSize=9;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;rounded=0;" parent="1" source="34" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="509" y="226"/>
+                            <mxPoint x="509" y="336"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;rounded=0;" parent="38" vertex="1" connectable="0">
+                    <mxGeometry x="0.2595" y="2" relative="1" as="geometry">
+                        <mxPoint x="30" y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="OverdraftJointAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="141" width="320" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;&lt;get/set&gt;&gt; - firstHolder : User&#10;&lt;&lt;get/set&gt;&gt; - secondHolder : User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="34" vertex="1">
+                    <mxGeometry y="26" width="320" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="34" vertex="1">
+                    <mxGeometry y="57" width="320" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="+ JointAccount(firstHolder : User, secondHolder : User, accnfo : AccountInfo)&#10;&#10;+ withdraw(amount : double) : Optional&lt;Double&gt;&#10;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="34" vertex="1">
+                    <mxGeometry y="65" width="320" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;fontSize=9;entryX=1.002;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=block;startFill=1;strokeWidth=2;rounded=0;dashed=1;" parent="1" source="51" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="844" y="457"/>
+                            <mxPoint x="844" y="389"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="AccountInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="951" y="400" width="160" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;&lt;get/set&gt;&gt; - iban : String&#10;&lt;&lt;get/set&gt;&gt; - balance : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="51" vertex="1">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="51" vertex="1">
+                    <mxGeometry y="52" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="+ AccountInfo(iban : String, balance : double)&#10;+ AccountInfo()&#10;&#10;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="51" vertex="1">
+                    <mxGeometry y="60" width="160" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;fontSize=9;entryX=1.007;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=block;startFill=1;strokeWidth=2;rounded=0;dashed=1;" parent="1" source="56" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="842" y="290"/>
+                            <mxPoint x="842" y="374"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="907" y="224" width="248" height="133" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;&lt;get/set&gt;&gt; - firstName : String&#10;&lt;&lt;get/set&gt;&gt; - lastName : String&#10;&lt;&lt;get/set&gt;&gt; - ssn : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="56" vertex="1">
+                    <mxGeometry y="26" width="248" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="56" vertex="1">
+                    <mxGeometry y="69" width="248" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="+ User(firstName : String, lastName : String, ssn : String)&#10;+ User()&#10;&#10;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="56" vertex="1">
+                    <mxGeometry y="77" width="248" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;html=1;fontSize=9;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;dashed=1;strokeWidth=2;rounded=0;" parent="1" source="66" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&amp;lt;&amp;lt;implements&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;rounded=0;" parent="73" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1265" y="1" relative="1" as="geometry">
+                        <mxPoint x="15" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAccountsControllerDAO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ accounts : ArrayList&amp;lt;IAccount&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addAccount(account : Account) : boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ withdraw(iban : String, amount : double) : Optional&amp;lt;Double&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ deposit(iban : String, amount : double) : Optional&amp;lt;Double&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ getInfo(iban : String) : Optional&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ deleteAccount(iban : String) : boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ ibanExists(iban : String) : boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="98" y="658" width="348" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="AccountsControllerDAO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=10;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="558" y="652" width="269" height="184" as="geometry">
+                        <mxRectangle x="558" y="652" width="143" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="- accounts : ArrayList&lt;Account&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="67" vertex="1">
+                    <mxGeometry y="26" width="269" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="67" vertex="1">
+                    <mxGeometry y="52" width="269" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="+ AccountsControllerDAO()&#10;&#10;+ addAccount(account : Account) : boolean&#10;+ withdraw(iban : String, amount : double) : Optional&lt;Double&gt;&#10;+ deposit(iban : String, amount : double) : Optional&lt;Double&gt;&#10;+ getInfo(iban : String) : Optional&lt;String&gt;&#10;+ deleteAccount(iban : String) : boolean&#10;+ ibanExists(iban : String) : boolean&#10;&#10;- getIbanPos(iban : String) : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="67" vertex="1">
+                    <mxGeometry y="60" width="269" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;html=1;fontSize=9;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;entryX=-0.004;entryY=0.785;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;rounded=0;" parent="1" source="37" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-122.24359130859375" y="242.34627151489258" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="40" y="259"/>
+                            <mxPoint x="40" y="923"/>
+                            <mxPoint x="285" y="923"/>
+                            <mxPoint x="514" y="923"/>
+                            <mxPoint x="514" y="809"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;fontSize=9;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;entryX=-0.009;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;rounded=0;" parent="1" source="31" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="52" y="464"/>
+                            <mxPoint x="52" y="907"/>
+                            <mxPoint x="495" y="907"/>
+                            <mxPoint x="495" y="793"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;DTO&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeWidth=3;rounded=0;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="927" y="1241" width="293" height="346" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="AccountInfoDTO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="992" y="1453" width="160" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="&lt;&lt;get/set&gt;&gt; - iban : String&#10;&lt;&lt;get/set&gt;&gt; - balance : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="79" vertex="1">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="79" vertex="1">
+                    <mxGeometry y="52" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="+ AccountInfo(iban : String, balance : double)&#10;+ AccountInfo()&#10;&#10;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="79" vertex="1">
+                    <mxGeometry y="60" width="160" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="UserDTO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="948" y="1277" width="248" height="133" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="&lt;&lt;get/set&gt;&gt; - firstName : String&#10;&lt;&lt;get/set&gt;&gt; - lastName : String&#10;&lt;&lt;get/set&gt;&gt; - ssn : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="83" vertex="1">
+                    <mxGeometry y="26" width="248" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="83" vertex="1">
+                    <mxGeometry y="69" width="248" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="+ User(firstName : String, lastName : String, ssn : String)&#10;+ User()&#10;&#10;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;rounded=0;" parent="83" vertex="1">
+                    <mxGeometry y="77" width="248" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;Service&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeWidth=3;rounded=0;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="-14" y="1059" width="871" height="938" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 11px;&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;IAccountControllerService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 11px;&quot;&gt;+ addAccount(usersDTO : List&amp;lt;UserDTO&amp;gt;, accnfoDTO : AccountInfoDTO, accountType : String) : boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 11px;&quot;&gt;+ withdraw(iban : String, amount : double) : double&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 11px;&quot;&gt;+ deposit(iban : String, amount : double) : double&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 11px;&quot;&gt;+ getInfo(iban : String) : String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 11px;&quot;&gt;+ deleteAccount(iban : String) : boolean&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=11;fontFamily=Helvetica;html=1;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="33" y="1108" width="579" height="153" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" style="edgeStyle=none;html=1;dashed=1;entryX=0.193;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;rounded=0;" parent="1" source="92" target="91" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="145" y="1433"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="&amp;lt;&amp;lt;implements&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];horizontal=1;rounded=0;" parent="96" vertex="1" connectable="0">
+                    <mxGeometry x="0.15" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-2" y="25" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=none;html=1;exitX=0.828;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=block;endFill=1;endSize=17;dashed=1;targetPerimeterSpacing=0;jumpSize=6;strokeWidth=2;rounded=0;" parent="1" source="92" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="720" y="1015"/>
+                            <mxPoint x="693" y="1015"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;html=1;exitX=1.002;exitY=0.28;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;endArrow=block;endFill=1;rounded=0;dashed=1;" parent="1" source="95" target="83" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="824" y="1385" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="876" y="1430"/>
+                            <mxPoint x="876" y="1344"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=none;html=1;exitX=1;exitY=0.363;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;endArrow=block;endFill=1;rounded=0;dashed=1;" parent="1" source="95" target="79" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="875" y="1442"/>
+                            <mxPoint x="875" y="1511"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="122" style="edgeStyle=none;html=1;fontSize=11;startArrow=none;startFill=0;endArrow=block;endFill=1;exitX=0.947;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;rounded=0;dashed=1;" parent="1" source="92" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="789" y="1035"/>
+                            <mxPoint x="1283" y="1035"/>
+                            <mxPoint x="1283" y="291"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" style="edgeStyle=none;html=1;fontSize=11;startArrow=none;startFill=0;endArrow=block;endFill=1;exitX=0.908;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;rounded=0;dashed=1;" parent="1" source="92" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="767" y="1015"/>
+                            <mxPoint x="1248" y="1015"/>
+                            <mxPoint x="1248" y="454"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" style="edgeStyle=none;html=1;fontSize=12;startArrow=block;startFill=1;endArrow=none;endFill=0;exitX=0.835;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="95" target="124">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="724" y="1801"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="AccountControllerServiceImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="239" y="1325" width="581" height="217" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="- dao : IAccountsControllerDAO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=0;" parent="92" vertex="1">
+                    <mxGeometry y="26" width="581" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;rounded=0;" parent="92" vertex="1">
+                    <mxGeometry y="52" width="581" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="+ AccountControllerServiceImpl(dao : IAccountsControllerDAO)&#10;&#10;+ addAccount(usersDTO : List&lt;UserDTO&gt;, accnfoDTO : AccountInfoDTO, accountType : String) : boolean&#10;+ withdraw(iban : String, amount : double) : double&#10;+ deposit(iban : String, amount : double) : double&#10;+ getInfo(iban : String) : String&#10;+ deleteAccount(iban : String) : boolean&#10;&#10;- composeToAccount(usersDTO : List&lt;UserDTO&gt;, accnfoDTO : AccountInfoDTO, accountType : String) : Account&#10;- converUserDTO(userDTO: UserDTO) : User&#10;- convertAccnfoDTO(accnfoDTO : AccountInfoDTO) : AccountInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;rounded=0;" parent="92" vertex="1">
+                    <mxGeometry y="60" width="581" height="157" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" style="edgeStyle=none;html=1;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.217;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;strokeWidth=2;rounded=0;" parent="1" source="104" target="95" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-67.18579991658521" y="1610.0000000000005" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="365" y="1601"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="121" value="&amp;lt;&amp;lt;throws&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;rounded=0;" parent="110" vertex="1" connectable="0">
+                    <mxGeometry x="0.6852" y="2" relative="1" as="geometry">
+                        <mxPoint x="1" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;signal&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;AccountAlreadyExistsException&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=11;fontFamily=Helvetica;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="1574" width="204" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;signal&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;AccountNotFoundException&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=11;fontFamily=Helvetica;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="1639" width="204" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;signal&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;AccountTypeNotFoundException&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=11;fontFamily=Helvetica;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="1707" width="204" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;signal&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;IncorrectAmountOfUsersException&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=11;fontFamily=Helvetica;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="1777" width="204" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;signal&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;NegativeAmountInsertedException&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=11;fontFamily=Helvetica;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="1847" width="204" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;signal&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;NotEnoughBalanceException&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=11;fontFamily=Helvetica;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="1917" width="204" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" style="edgeStyle=none;html=1;fontSize=11;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;strokeWidth=2;rounded=0;" parent="1" source="111" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="1598" as="targetPoint"/>
+                        <mxPoint x="234" y="1600.5" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="365" y="1667"/>
+                            <mxPoint x="365" y="1637"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=none;html=1;fontSize=11;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;strokeWidth=2;rounded=0;" parent="1" source="112" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="1662" as="targetPoint"/>
+                        <mxPoint x="234" y="1666.1566523605152" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="365" y="1734"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" style="edgeStyle=none;html=1;fontSize=11;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;strokeWidth=2;rounded=0;" parent="1" source="113" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="1732" as="targetPoint"/>
+                        <mxPoint x="234" y="1666.1566523605152" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="365" y="1804"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" style="edgeStyle=none;html=1;fontSize=11;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;strokeWidth=2;rounded=0;" parent="1" source="114" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="1801" as="targetPoint"/>
+                        <mxPoint x="234" y="1666.1566523605152" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="365" y="1874"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" style="edgeStyle=none;html=1;fontSize=11;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;strokeWidth=2;rounded=0;" parent="1" source="115" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="1868" as="targetPoint"/>
+                        <mxPoint x="234" y="1666.1566523605152" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="365" y="1944"/>
+                            <mxPoint x="365" y="1910"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="130" style="edgeStyle=none;html=1;dashed=1;fontSize=12;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeWidth=2;exitX=1.008;exitY=0.424;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="127" target="83">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1293" y="1812"/>
+                            <mxPoint x="1293" y="1344"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="131" style="edgeStyle=none;html=1;dashed=1;fontSize=12;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeWidth=2;exitX=1.007;exitY=0.211;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="127" target="79">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1282" y="1782"/>
+                            <mxPoint x="1282" y="1511"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="App" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="953.75" y="1701" width="230" height="191" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="- service : IAccountControllerService" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=0;fontStyle=4;strokeWidth=2;gradientColor=none;perimeterSpacing=0;" vertex="1" parent="124">
+                    <mxGeometry y="26" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="+ main(args : String[ ]) : void&#10;&#10;- printMenu() : void&#10;- createAccnfoDTO() : AccountInfoDTO&#10;- createUsersDTO : List&lt;UserDTO&gt;&#10;- getUserCount(accountType : String) : int&#10;- getValidInt() : int&#10;- getUserstring() : String&#10;- getValidDouble() : Double" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=0;fontStyle=4" vertex="1" parent="124">
+                    <mxGeometry y="52" width="230" height="139" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
