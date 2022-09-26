@@ -1,9 +1,6 @@
 package gr.aueb.elearn.chapter17;
 
 import java.util.ArrayList;
-
-import javax.sound.sampled.SourceDataLine;
-
 public class MainApp {
     public static void main(String[] args) {
         GenericNode<Integer> intNode = new GenericNode<>();

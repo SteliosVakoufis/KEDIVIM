@@ -77,12 +77,7 @@ public class App {
 					break;
 
 				case 6:
-					try {
-						System.out.println("Exiting application..");
-					} catch (Exception e) {
-						System.err.println(e.getMessage());
-					}
-
+					System.out.println("Exiting application..");
 					break;
 
 				default:

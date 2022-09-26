@@ -24,7 +24,7 @@ public class IOBytesStreamDemo {
                 // bos.write(bis, 0, bis.read());
             }
         } catch (Exception e) {
-            // TODO: handle exception
+            System.err.println(e.getMessage());;
         }
 
         timeEnd = System.currentTimeMillis();
