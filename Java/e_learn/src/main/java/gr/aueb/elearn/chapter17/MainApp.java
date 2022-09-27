@@ -1,6 +1,9 @@
 package gr.aueb.elearn.chapter17;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
+
 public class MainApp {
     public static void main(String[] args) {
         GenericNode<Integer> intNode = new GenericNode<>();
@@ -19,13 +22,14 @@ public class MainApp {
 
 
         Stack<Integer> myStack = new Stack<>();
-        
+
         myStack.push(1);
         myStack.push(2);
         myStack.push(3);
         myStack.push(4);
 
         System.out.println("POP: " + myStack.pop());
+
 
         myStack.forEach(System.out::println);
     }
@@ -40,5 +44,5 @@ public class MainApp {
     public static void print(GenericNode<? extends Number> node) {
         System.out.println(node.getItem());
     }
-    
+
 }

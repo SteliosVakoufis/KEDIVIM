@@ -19,7 +19,7 @@ public class DoublyLinkedList<T> {
         temp.setNext(this.head);
 
         if (this.head != null) {
-            temp.getNext().setPrev(temp);
+            this.head.setPrev(temp);
         } else {
             this.tail = temp;
         }

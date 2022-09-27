@@ -1,11 +1,21 @@
 package com.example.test1;
 
+// import java.util.ArrayList;
+// import java.util.List;
+
 public class app {
     public static void main(String[] args) {
-        Class1 myclass = new Class2();
+        // List<Integer> myArrayList = new ArrayList<>(){{
+        //     add(10);
+        //     add(10);
+        //     add(10);
+        //     add(10);
+        // }};
 
-        System.out.println(myclass.getClass().getSimpleName());
+        // myArrayList.stream().forEach(System.out::println);
 
-        myclass.print();
+        System.out.println(Class2.myNum);
+
+        Class2.printHello();
     }
 }
