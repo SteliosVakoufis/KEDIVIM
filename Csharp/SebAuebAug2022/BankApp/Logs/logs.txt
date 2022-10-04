@@ -1,0 +1,4 @@
+﻿30/09/2022 11:30:21 BankApp.Exceptions.InsufficienBalanceException: WOOPS!!!
+   at BankApp.Model.Account.Withdraw(Decimal amount) in C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\BankApp\Model\Account.cs:line 61
+30/09/2022 11:30:37 BankApp.Exceptions.InsufficienBalanceException: WOOPS!!!
+   at BankApp.Model.Account.Withdraw(Decimal amount) in C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\BankApp\Model\Account.cs:line 61

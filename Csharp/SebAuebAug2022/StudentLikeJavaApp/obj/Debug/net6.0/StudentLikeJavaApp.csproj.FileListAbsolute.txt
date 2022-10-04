@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\bin\Debug\net6.0\StudentLikeJavaApp.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\bin\Debug\net6.0\StudentLikeJavaApp.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\bin\Debug\net6.0\StudentLikeJavaApp.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\bin\Debug\net6.0\StudentLikeJavaApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\bin\Debug\net6.0\StudentLikeJavaApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\StudentLikeJavaApp.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\StudentLikeJavaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\StudentLikeJavaApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\StudentLikeJavaApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\StudentLikeJavaApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\StudentLikeJavaApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\refint\StudentLikeJavaApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\StudentLikeJavaApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\StudentLikeJavaApp.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\StudentLikeJavaApp\obj\Debug\net6.0\ref\StudentLikeJavaApp.dll

@@ -8,6 +8,15 @@
             Console.WriteLine(ok);
             Console.WriteLine(res);
             Console.WriteLine(c);
+            //int i = 1;
+            //Console.WriteLine(i);
+            //AddOne(i, out i);
+            //Console.WriteLine(i);
+        }
+
+        private static void AddOne(int i, out int result)
+        {
+            result = i + 1;
         }
 
         private static bool Sum(int a, int b, out int result, out int c)
