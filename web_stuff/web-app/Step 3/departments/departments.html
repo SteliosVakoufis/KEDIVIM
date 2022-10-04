@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./resources/css/main.css">
     <title>🌍Hello world!🌍</title>
 
-    <!-- <link rel="stylesheet" href="./resources/css/main.css"> -->
+    <link rel="stylesheet" href="./../resources/css/main.css">
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -20,10 +20,10 @@
 
 <body>
 
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img
-                    src="https://www.aueb.gr/newopa/icons/menu/logo_opa.png"
+            <a class="navbar-brand" href="index.html"><img src="https://www.aueb.gr/newopa/icons/menu/logo_opa.png"
                     alt="" width="100px"></a>
             <button class="navbar-toggler" type="./button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -58,7 +58,8 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="../announcements/announcements.html">Announcements</a>
                             </li>
-                            <li><a class="dropdown-item" href="../announcements/subscription.html">Subscriptions</a></li>
+                            <li><a class="dropdown-item" href="../announcements/subscription.html">Subscriptions</a>
+                            </li>
                         </ul>
                     </li>
 
@@ -84,43 +85,48 @@
     </nav>
 
     <h1>Departments Page</h1>
-    <hr>
 
-    <form action="" method="post">
-        <label for="identifier">Identification: </label>
-        <br>
-        <input type="number" name="identifier" id="identifier">
-        <br>
+    <div class="container border rounded shadow bg-light my-3 p-3">
+        <form action="" method="get">
 
-        <label for="name">Name: </label>
-        <br>
-        <input type="text" name="name" id="name">
-        <br><br>
+            <div class="mb-3">
+                <label class="form-label" for="identifier">Identification: </label>
+                <input class="form-control" type="number" name="identifier" id="identifier" placeholder="Insert Identification">
+            </div>
 
-        <input type="submit" name="submit" id="submit" value="Submit!">
-    </form>
+            <div class="mb-3">
+                <label class="form-label" for="name">Name: </label>
+                <input class="form-control" type="text" name="name" id="name" placeholder="Insert Name">
+            </div>
 
-    <br><br>
-    
-    <hr>
+            <div class="mb-1">
+                <input class="form-control btn btn-primary" type="submit" name="submit" id="submit" value="Submit!">
+            </div>
 
-    <table border="2px">
-        <tr>
-            <th>Address</th>
-            <th>Identification</th>
-        </tr>
+        </form>
+    </div>
 
-        <tbody>
-            <tr>
-                <td>Administration Address</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>Financial Services Adress</td>
-                <td>2</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <table class="table text-center table-stripped border">
+                <thead>
+                    <th>Address</th>
+                    <th>Identification</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Administration Address</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Financial Services Adress</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
     <footer>
         <p>© Copyright 1996 - 2022 | Potatoe Manufacturers GR</p>

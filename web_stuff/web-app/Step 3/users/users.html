@@ -20,6 +20,7 @@
 
 <body>
 
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="https://www.aueb.gr/newopa/icons/menu/logo_opa.png"
@@ -83,7 +84,7 @@
         </div>
     </nav>
 
-    <div class="container border rounded shadow bg-light mt-3">
+    <div class="container border rounded shadow bg-light mt-3 p-3">
         <h1 class="text-center">Users Management</h1>
 
         <form action="" method="post">
@@ -109,8 +110,7 @@
 
             <div class="mb-3">
                 <label class="form-label" for="">Category:</label>
-                <br>
-                <select name="category" id="category">
+                <select class="form-control" name="category" id="category">
                     <option value="1">Undergraduate</option>
                     <option value="2">Postgraduate</option>
                     <option value="3">DEP</option>
@@ -125,15 +125,13 @@
             <div class="mb-3">
                 <label class="form-label" for="Administrator">Administrator</label>
                 <input type="radio" name="roles" id="admin" value="admin">
-            </div>
 
-            <div class="mb-3">
                 <label class="form-label" for="editor">Editor</label>
                 <input type="radio" name="roles" id="editor" value="editor">
             </div>
 
             <div class="mb-3">
-                <input class="btn btn-primary" type="submit" value="submit">
+                <input class="form-control btn btn-primary" type="submit" value="submit">
             </div>
         </form>
     </div>
@@ -145,7 +143,7 @@
             <table class="table text-center table-stripped">
                 <thead>
                     <th>Username</th>
-                    <th>Name</td>
+                    <th>Name</th>
                     <th>Last Name</th>
                     <th>Category</th>
                     <th>Email</th>

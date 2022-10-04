@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./resources/css/main.css">
     <title>🌍Hello world!🌍</title>
 
-    <!-- <link rel="stylesheet" href="./resources/css/main.css"> -->
+    <link rel="stylesheet" href="./../resources/css/main.css">
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -20,10 +20,10 @@
 
 <body>
 
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img
-                    src="https://www.aueb.gr/newopa/icons/menu/logo_opa.png"
+            <a class="navbar-brand" href="index.html"><img src="https://www.aueb.gr/newopa/icons/menu/logo_opa.png"
                     alt="" width="100px"></a>
             <button class="navbar-toggler" type="./button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -58,7 +58,8 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="../announcements/announcements.html">Announcements</a>
                             </li>
-                            <li><a class="dropdown-item" href="../announcements/subscription.html">Subscriptions</a></li>
+                            <li><a class="dropdown-item" href="../announcements/subscription.html">Subscriptions</a>
+                            </li>
                         </ul>
                     </li>
 
@@ -82,33 +83,35 @@
             </div>
         </div>
     </nav>
-    
+
     <h1>Announcements Page</h1>
-    <hr>
 
-    <form action="" method="post">
-        <label for="category">Category</label>
-        <br>
-        <select name="category" id="category">
-            <option value="" selected disabled>Select Category</option>
-            <option value="1">Personel announcements</option>
-            <option value="2">Supplier announcements</option>
-        </select>
-        <br>
+    <div class="container border rounded shadow bg-light my-3 p-4">
+        <form action="" method="post">
+            <div class="mb-3">
+                <label class="form-label" for="category">Category</label>
+                <select class="form-control" name="category" id="category">
+                    <option value="" selected disabled>Select Category</option>
+                    <option value="1">Personel announcements</option>
+                    <option value="2">Supplier announcements</option>
+                </select>
+            </div>
 
-        <label for="subject">Theme:</label>
-        <br>
-        <input type="text" name="subject" id="subject">
-        <br>
+            <div class="mb-3">
+                <label class="form-label" for="subject">Theme:</label>
+                <input class="form-control" type="text" name="subject" id="subject">
+            </div>
 
-        <label for="message">Message: </label>
-        <br>
-        <textarea name="message" id="message" cols="50" rows="10">Hello world!</textarea>
-        <br>
+            <div class="mb-3">
+                <label class="form-label" for="message">Message: </label>
+                <textarea class="form-control" name="message" id="message" cols="50" rows="10">Hello world!</textarea>
+            </div>
 
-        <input type="submit" name="submit" value="submit" id="submit">
-
-    </form>
+            <div class="mb-3">
+                <input class="form-control btn btn-primary" type="submit" name="submit" value="submit" id="submit">
+            </div>
+        </form>
+    </div>
 
     <footer>
         <p>© Copyright 1996 - 2022 | Potatoe Manufacturers GR</p>
