@@ -14,8 +14,8 @@ public class app {
 
         // myArrayList.stream().forEach(System.out::println);
 
-        System.out.println(Class2.myNum);
+        // System.out.println(Class2.myNum);
 
-        Class2.printHello();
+        // Class2.printHello();
     }
 }
