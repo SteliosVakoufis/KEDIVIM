@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TypeLimits": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51370;http://localhost:51382"
+    }
+  }
+}

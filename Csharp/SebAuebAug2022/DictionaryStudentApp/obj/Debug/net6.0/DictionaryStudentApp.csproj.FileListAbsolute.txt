@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\bin\Debug\net6.0\DictionaryStudentApp.exe
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\bin\Debug\net6.0\DictionaryStudentApp.deps.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\bin\Debug\net6.0\DictionaryStudentApp.runtimeconfig.json
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\bin\Debug\net6.0\DictionaryStudentApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\bin\Debug\net6.0\DictionaryStudentApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\DictionaryStudentApp.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\DictionaryStudentApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\DictionaryStudentApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\DictionaryStudentApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\DictionaryStudentApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\DictionaryStudentApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\refint\DictionaryStudentApp.dll
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\DictionaryStudentApp.pdb
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\DictionaryStudentApp.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\SebAuebAug2022\DictionaryStudentApp\obj\Debug\net6.0\ref\DictionaryStudentApp.dll

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "AbstractClassesApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51435;http://localhost:51438"
+    }
+  }
+}

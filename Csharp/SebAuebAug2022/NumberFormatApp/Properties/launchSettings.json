@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "NumberFormatApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51391;http://localhost:51393"
+    }
+  }
+}

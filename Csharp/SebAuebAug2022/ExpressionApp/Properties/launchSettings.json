@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ExpressionApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51374;http://localhost:51384"
+    }
+  }
+}

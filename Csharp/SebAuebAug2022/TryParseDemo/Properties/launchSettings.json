@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TryParseDemo": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51375;http://localhost:51381"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ReadingNumbersApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51392;http://localhost:51394"
+    }
+  }
+}

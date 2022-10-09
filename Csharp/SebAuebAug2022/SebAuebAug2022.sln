@@ -64,7 +64,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp", "BankApp\BankApp.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointInherit", "PointInherit\PointInherit.csproj", "{987C3BD3-D4C2-4D90-A3CD-9694502F1998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointDAOServiceApp", "PointDAOServiceApp\PointDAOServiceApp.csproj", "{92AF49C9-7AC9-444C-A0E6-533E47119BA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointDAOServiceApp", "PointDAOServiceApp\PointDAOServiceApp.csproj", "{92AF49C9-7AC9-444C-A0E6-533E47119BA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComparerApp", "ComparerApp\ComparerApp.csproj", "{C5E1A305-4431-4D94-B215-538B92937D35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryStudentApp", "DictionaryStudentApp\DictionaryStudentApp.csproj", "{F2A2EFFA-C8E3-422A-9A6F-70EF2F9F07E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassesApp", "AbstractClassesApp\AbstractClassesApp.csproj", "{1C369531-F613-461D-8CD1-F2AA93147D4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackApp", "StackApp\StackApp.csproj", "{1C3473A4-E0D3-450B-8DF4-9472AD9E294F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinglyLinkedList", "SinglyLinkedList\SinglyLinkedList.csproj", "{4B9394D9-3D22-455C-96D5-21064294F244}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsAppEmpty", "StudentsAppEmpty\StudentsAppEmpty.csproj", "{DB100E2D-9665-4884-A05D-C41AED48F74D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -188,6 +200,30 @@ Global
 		{92AF49C9-7AC9-444C-A0E6-533E47119BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92AF49C9-7AC9-444C-A0E6-533E47119BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92AF49C9-7AC9-444C-A0E6-533E47119BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E1A305-4431-4D94-B215-538B92937D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E1A305-4431-4D94-B215-538B92937D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E1A305-4431-4D94-B215-538B92937D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E1A305-4431-4D94-B215-538B92937D35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A2EFFA-C8E3-422A-9A6F-70EF2F9F07E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A2EFFA-C8E3-422A-9A6F-70EF2F9F07E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A2EFFA-C8E3-422A-9A6F-70EF2F9F07E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A2EFFA-C8E3-422A-9A6F-70EF2F9F07E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C369531-F613-461D-8CD1-F2AA93147D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C369531-F613-461D-8CD1-F2AA93147D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C369531-F613-461D-8CD1-F2AA93147D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C369531-F613-461D-8CD1-F2AA93147D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3473A4-E0D3-450B-8DF4-9472AD9E294F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3473A4-E0D3-450B-8DF4-9472AD9E294F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3473A4-E0D3-450B-8DF4-9472AD9E294F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3473A4-E0D3-450B-8DF4-9472AD9E294F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9394D9-3D22-455C-96D5-21064294F244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9394D9-3D22-455C-96D5-21064294F244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9394D9-3D22-455C-96D5-21064294F244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9394D9-3D22-455C-96D5-21064294F244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB100E2D-9665-4884-A05D-C41AED48F74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB100E2D-9665-4884-A05D-C41AED48F74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB100E2D-9665-4884-A05D-C41AED48F74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB100E2D-9665-4884-A05D-C41AED48F74D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
