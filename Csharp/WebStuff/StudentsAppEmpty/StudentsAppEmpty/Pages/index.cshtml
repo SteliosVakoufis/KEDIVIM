@@ -1,0 +1,34 @@
+﻿@page
+@using System.Globalization
+
+@functions {
+    public string? DayName { get; set; }
+
+    public void OnGet()
+    {
+        CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+        Model.DayName = DateTime.Now.ToString("dddd");
+        ViewData["Title"] = "AUEB-SEV";
+    }
+}
+
+<div class="container">
+    <div class="mt-4 p-5 bg-primary text-white rounded">
+        <h1 class="dispaly-3">
+            Welcome to SEV-AUEB
+        </h1>
+
+        <p class="lead">
+            We produce professional programmers!
+        </p>
+
+        <hr />
+
+        <p>
+            It's @Model.DayName! Time to learn more about AUEB
+            <a class="btn btn-primary" href="https://aueb.gr/">
+                Learn More
+            </a>
+        </p>
+    </div>
+</div>

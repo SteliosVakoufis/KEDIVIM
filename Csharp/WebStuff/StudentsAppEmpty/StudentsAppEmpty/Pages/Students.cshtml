@@ -1,0 +1,23 @@
+﻿@page
+@model StudentsAppEmpty.Pages.StudentsModel
+@{
+}
+
+<div class="row">
+    <h2>Students</h2>
+    <table class="table">
+        <thead class="table-dark">
+            <tr><th>SEV-AUEB Students</th></tr>
+        </thead>
+
+        <tbody>
+            @if (Model.Students != null)
+            {
+                @foreach (var name in Model.Students)
+                {
+                    <tr><td>@name</td></tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

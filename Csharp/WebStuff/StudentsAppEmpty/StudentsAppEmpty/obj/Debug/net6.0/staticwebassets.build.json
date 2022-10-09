@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "CEzj77TTbeeMjFby8na8cGyPs/LGEWkXWsh7acIuojA=",
+  "Source": "StudentsAppEmpty",
+  "BasePath": "_content/StudentsAppEmpty",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StudentsAppEmpty\\wwwroot",
+      "Source": "StudentsAppEmpty",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Programming_Stuff\\KEDIVIM\\Csharp\\WebStuff\\StudentsAppEmpty\\StudentsAppEmpty\\wwwroot\\",
+      "BasePath": "_content/StudentsAppEmpty",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\Programming_Stuff\\KEDIVIM\\Csharp\\WebStuff\\StudentsAppEmpty\\StudentsAppEmpty\\wwwroot\\index.html",
+      "SourceId": "StudentsAppEmpty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\Programming_Stuff\\KEDIVIM\\Csharp\\WebStuff\\StudentsAppEmpty\\StudentsAppEmpty\\wwwroot\\",
+      "BasePath": "_content/StudentsAppEmpty",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
