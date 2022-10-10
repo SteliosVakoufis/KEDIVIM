@@ -1,16 +1,5 @@
 ﻿@page
-@using System.Globalization
-
-@functions {
-    public string? DayName { get; set; }
-
-    public void OnGet()
-    {
-        CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
-        Model.DayName = DateTime.Now.ToString("dddd");
-        ViewData["Title"] = "AUEB-SEV";
-    }
-}
+@model StudentsAppEmpty.Pages.HomeModel
 
 <div class="container">
     <div class="mt-4 p-5 bg-primary text-white rounded">

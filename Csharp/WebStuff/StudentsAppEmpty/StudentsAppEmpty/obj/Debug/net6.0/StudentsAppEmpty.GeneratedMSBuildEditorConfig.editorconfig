@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Administrator\Documents\Programming_Stuff\KEDIVIM\Csharp\WebStuff\StudentsAppEmpty\StudentsAppEmpty
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Administrator/Documents/Programming_Stuff/KEDIVIM/Csharp/WebStuff/StudentsAppEmpty/StudentsAppEmpty/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Administrator/Documents/Programming_Stuff/KEDIVIM/Csharp/WebStuff/StudentsAppEmpty/StudentsAppEmpty/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
