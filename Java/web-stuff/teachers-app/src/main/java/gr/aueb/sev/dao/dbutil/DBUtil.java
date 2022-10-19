@@ -35,5 +35,4 @@ public class DBUtil {
 	public static void CloseConnection() throws SQLException{
 		conn.close();
 	}
-	
 }

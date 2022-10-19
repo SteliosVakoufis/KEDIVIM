@@ -85,6 +85,6 @@ public interface ITeacherService {
      *                                  if any teacher, identified by their id is
      *                                  not found.
      */
-    Teacher getTeacherId(long id)
+    Teacher getTeacherId(int id)
             throws SQLException, TeacherNotFoundException;
 }
