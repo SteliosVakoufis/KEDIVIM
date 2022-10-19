@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>My Application</title>
+	</head>
+	<body>
+		<p>Κεντρική Σελίδα</p>
+		
+		<% if (error_message) { %>
+			<h2><%= error_message %></h2>
+		<% } %>
+		
+		<% if (recipe.length>0) { %>
+			<% recipe.forEach((item) => { %>
+					<%= item.title %>, <%= item.description %><br>
+			<% }); %>	
+		<% } else  {%>
+			<h2><%= message %></h2>
+			<p><%= recipe.title %></p>
+		<% } %>
+		<p><a href="/createform">Δημιουργία</a></p>
+		<p><a href="/search">Αναζήτηση</a></p>
+		<p><a href="/showall">Εμφάνιση όλων</a></p>
+	</body>
+</html>

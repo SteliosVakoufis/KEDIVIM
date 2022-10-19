@@ -1,0 +1,203 @@
+body {
+    background-color:lightgray;
+    /* 2. Βάζουμε το font family για να έχουμε παντού τα ίδια fonts */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation bar styling */
+.topnav {
+  background-color: #333;
+  /* 1. Σχολιάζεται για να μπει το dropdown menu */
+  /* overflow: hidden; */
+  width: 100%;  
+  height: 80px; 
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  margin-right: 20px;
+  height: 80px;        /* if you want it to take the full height of the bar */
+  line-height: 80px;  /* if you want it vertically middle of the navbar */
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: lightgray;
+  color: black;
+  /* height: 60px; */
+}
+
+.topnav img {
+  display: inline-block;
+  vertical-align: top;
+  width: 48px;
+  height: auto;
+}
+
+/* Dropdown menu styling */
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #333;
+  color: #f2f2f2;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: 1; */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  margin-right: 0px;
+  height: 40px;        /* if you want it to take the full height of the bar */
+  line-height: 40px;  /* if you want it vertically middle of the navbar */
+  border-bottom: 1px solid;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: black;
+  height: 78px; 
+}
+/* End of dropdown menu */
+
+/* End of Navigation bar */
+
+/* Index page of app */
+.main-page h1{
+  text-align: center;
+}
+
+.main-page img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height:auto;
+}
+/* Enf of index app */
+
+/* Rest pages of app */
+.container-page h1{
+  text-align: center;
+}
+
+.container-form {
+  margin: auto;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  justify-content: center;
+}
+
+.container-form input[type=text], input[type=email], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.container-form input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.container-form input[type=submit] {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container-form input[type=submit]:hover {
+  background-color: lightgray;
+}
+
+#show-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+}
+
+#show-tables td, #show-table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#show-table tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#show-table tr:hover {
+  background-color: #333;
+  color: white;
+}
+
+#show-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333;
+  color: white;
+}
+
+#back-button a{
+  color: #333;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#back-button a:hover{
+  color: blue;
+}

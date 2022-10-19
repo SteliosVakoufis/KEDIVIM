@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/main.css">
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Χρήστες - Σύστημα Ανακοινώσεων</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="https://aueb.gr/" target="_blank">
+            <img src="../../img/hermis_logo.jpg" alt="Οικονομικό Πανεπιστήμιο Αθηνών">
+        </a>
+        <a href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a class="active" href="users.html">Χρήστες</a>
+        <a href="roles.html">Ρόλοι</a>
+        <a href="users-category.html">Κατηγορίες Χρηστών</a>
+    </div> 
+
+    <div class="container-page">
+        <h1>Χρήστες Εφαρμογής</h1>
+        
+        <div class="container-form">
+            <!-- 1. Βγάζουμε τα br από τα label για να πάνε το label και το πεδίο σε μια γραμμή εκτός από το roles-->
+            <!-- 2. Φτιάχνουμε το CSS της φόρμας -->
+            <form method="post" action="">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username">
+                
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+
+                <label for="name">Όνομα:</label>
+                <input type="text" name="name" id="name">
+
+                <label for="surname">Επίθετο:</label>
+                <input type="text" name="surname" id="surname">
+
+                <label for="category">Κατηγορία:</label>
+                <select name="category" id="category">
+                    <option value="1">Προπτυχιακός</option>
+                    <option value="2">Μεταπτυχιακός</option>
+                    <option value="3">ΔΕΠ</option>
+                    <option value="4">ΕΔΙΠ</option>
+                </select><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+
+                <br>
+                <label for="roles">Ρόλος:</label><br>
+                <input type="radio" name="roles" id="admin" value="admin">
+                <label for="admin">Διαχειριστής</label><br>
+                <input type="radio" name="roles" id="editor" value="editor">
+                <label for="admin">Συγγραφέας</label><br>
+
+                <input type="submit" name="Submit" value="Submit">
+            </form>
+        </div>
+        
+        <hr>
+        <!-- 1. Βγάζουμε τo border -->
+        <!-- 2. Bάζουμε ένα id -->
+        <table id="show-table">
+            <tr>
+                <th>Username</th>
+                <th>Όνομα</th>
+                <th>Επίθετο</th>
+                <th>Κατηγορία</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>admin</td>
+                <td>admin1</td>
+                <td>admin1</td>
+                <td>Διοικητικός</td>
+                <td>admin1@aueb.gr</td>
+            </tr>
+            <tr>
+                <td>xxxx1</td>
+                <td>Όνομα1</td>
+                <td>Επίθετο1</td>
+                <td>Διοικητικός</td>
+                <td>xxxx1@aueb.gr</td>
+            </tr>
+            <tr>
+                <td>xxxx2</td>
+                <td>Όνομα2</td>
+                <td>Επίθετο2</td>
+                <td>ΔΕΠ</td>
+                <td>xxxx2@aueb.gr</td>
+            </tr>
+            <tr>
+                <td>xxxx3</td>
+                <td>Όνομα3</td>
+                <td>Επίθετο3</td>
+                <td>ΕΔΙΠ</td>
+                <td>xxxx3@aueb.gr</td>
+            </tr>
+            <tr>
+                <td>xxxx4</td>
+                <td>Όνομα4</td>
+                <td>Επίθετο4</td>
+                <td>ΕΤΕΠ</td>
+                <td>xxxx4@aueb.gr</td>
+            </tr>
+        </table>
+    </div>
+    <!-- 1. Βάζουμε i class -->
+    <!-- 2. Bάζουμε ένα div με id αντί για p και φτιάχνουμε το CSS-->    
+    <div id="back-button">
+        <a href="../index.html"><i class="fa fa-chevron-left"></i> Επιστροφή</a>
+    </div>
+</body>
+</html>

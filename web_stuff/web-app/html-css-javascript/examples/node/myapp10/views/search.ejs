@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>My Application</title>
+	</head>
+	<body>
+		<p>Αναζήτηση Συνταγής</p>
+		
+		<form method="post" action="/search_recipe">
+			Τίτλος: <input type="text" name="title"><br>
+			Συστατικό: <input type="text" name="ingredient"><br>
+			<p>
+				<input type="radio" name="which" value="And" checked>And</input>
+				<input type="radio" name="which" value="Or">Or</input>
+			</p>
+			<input type="submit" value="Υποβολή">
+			<input type="reset" value="Καθάρισμα">
+		</form>
+		<p><a href="/main">Επιστροφή</a></p>
+	</body>
+</html>

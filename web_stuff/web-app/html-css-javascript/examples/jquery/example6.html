@@ -1,0 +1,71 @@
+<html>
+	<head><script src="jquery-3.6.1.min.js"></script></head>
+	<style>
+		.errorText{
+			color: red;
+		}
+		
+		.errorBox{
+			border: 2px solid red;
+		}
+		
+		.goodBox{
+			border: 2px solid green
+		}	
+	</style>
+	<body>
+		<input type="password" name="password"></input>
+		<br>
+		<span id="errorMessage" class="errorText" hidden >
+			Διορθώστε τα παρακάτω λάθη:
+		</span>
+		<ul>
+			<li id="needsNumber" class="errorText" hidden >
+				Το password πρέπει να περιέχει νούμερα.
+			</li>
+			<li id="atLeast10Chars" class="errorText" hidden >
+				Το password πρέπει να έχει τουλάχιστον 10 χαρακτήρες.
+			</li>
+		</ul>
+		<span id="successMessage" hidden>
+			Το password είναι εγκρίθηκε
+		</span>
+		
+		<p><button name="submit">Έλεγχος Password</button></p>
+		
+		<script>
+			$("button[name='submit']").click(function() {
+				
+				let password = $("input[name='password']").val();
+				let isOkay = true;
+				
+				if (password.length < 10 ) {
+					isOkay = false;
+					$('#atLeast10Chars').show();
+				} else {
+					$('#atLeast10Chars').hide();
+				}
+				
+				let pattern = /\d/;
+				if (pattern.test(password) == false) {
+					isOkay = false;
+					$('#needsNumber').show();
+				} else {
+					$('#needsNumber').hide();
+				}
+				
+				if(isOkay == false) {
+					$('#successMessage').hide();
+					$('#errorMessage').show();
+					passwordField.removeClass("goodBox").addClass("errorBox");
+				} else {
+					$('.errorText').hide();
+					$('#successMessage').show();
+					passwordField.removeClass("errorBox").addClass("doodBox");
+				}
+				return false;	
+			})
+			
+		</script>
+	</body>
+</html>

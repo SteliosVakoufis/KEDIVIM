@@ -1,0 +1,35 @@
+<html>
+	<head><script src="jquery-3.6.1.min.js"></script></head>
+	<body>
+		<ul>
+			<li>Κώστας</li>
+			<li>Μαρία</li>
+			<li>Γιώργος</li>
+			<li>Ελένη</li>
+		</ul>
+		
+		<script>
+			$('li').mouseenter(function(){
+				$(this).css('color', 'red');
+			});
+			
+			
+			$('li').mouseleave(function(){
+				$(this).css('color', 'black');
+			});
+			
+			//~ $('li').hover(
+				//~ function() {
+					//~ $(this).css('color', 'red');
+				//~ },
+				//~ function() {
+					//~ $(this).css('color', 'black');
+				//~ }
+			//~ )
+			
+			// https://api.jquery.com/mouseenter/
+			// https://api.jquery.com/mouseleave/
+			// https://api.jquery.com/hover/
+		</script>
+	</body>
+</html>

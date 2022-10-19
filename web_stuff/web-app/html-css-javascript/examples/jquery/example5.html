@@ -1,0 +1,58 @@
+<html>
+	<head><script src="jquery-3.6.1.min.js"></script></head>
+	<body>
+		<form>
+			<select name="country">
+				<option value="Ιταλία">Ιταλία</option>
+				<option value="Γαλλία">Γαλλία</option>
+				<option value="Ισπανία">Ισπανία</option>
+			</select>
+			<p>
+				<input type="radio" name="transport" value="Αεροπλάνο">Αεροπλάνο</input>
+				<input type="radio" name="transport" value="Τραίνο">Τραίνο</input>
+				<input type="radio" name="transport" value="Αυτοκίνητο">Αυτοκίνητο</input>
+			</p>
+			<p>
+				<input type="checkbox" name="belongings" value="ομπρέλα">ομπρέλα</input>
+				<input type="checkbox" name="belongings" value="αδιάβροχο">αδιάβροχο</input>
+				<input type="checkbox" name="belongings" value="καπέλο">καπέλο</input>
+			</p>
+		</form>
+		<p>Θα ταξιδέψω στην <span id="countrySpan">...</span> με <span id="transportSpan">...</span> θα πάρω μαζί μου <span id="belongings">...</span></p>
+		
+		<script>
+			$("select[name='country']").change(function() {
+				$('#countrySpan').html($(this).val());
+			});
+			
+			$("input:radio[name='transport']").change(function(){
+				if ($(this).prop('checked')){
+					$('#transportSpan').html($(this).val());
+				}
+			})
+			
+			const allChecked = [];
+			
+			$('input:checkbox').change(function() {
+				let value = $(this).val();
+				if ($(this).prop('checked')){
+					allChecked.push(value)
+				}
+				else {
+					let index = allChecked.indexOf(value)
+					if (index !=-1)
+						allChecked.splice(index,1);
+				}
+				$('#belongings').html('');
+				for (let i=0; i<allChecked.length; i++) {
+					$('#belongings').append(allChecked[i]);
+					if (i < allChecked.length - 1)
+						$('#belongings').append(', ');
+					else
+						$('#belongings').append(' ');
+				}
+			})
+
+		</script>
+	</body>
+</html>

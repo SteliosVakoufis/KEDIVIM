@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Διευθύνσεις - Σύστημα Ανακοινώσεων</title>
+</head>
+<body>
+    <a href="https://aueb.gr/" target="_blank">
+        <img src="../../img/hermis_logo.jpg" alt="Οικονομικό Πανεπιστήμιο Αθηνών" width="50px" height="auto">
+    </a>
+    <a href="../index.html">
+        <img src="../../img/home-icon.png" alt="Οικονομικό Πανεπιστήμιο Αθηνών" width="30px" height="auto">
+    </a>
+    <a href="departments.html">Διευθύνσεις</a>
+    <a href="subdepartments.html">Τμήματα</a>
+    <a href="categories.html">Κατηγορίες</a>
+
+    <p>Κατηγορίες Υπηρεσιών</p>
+
+    <form method="post" action="">
+        <label for="department">Διεύθυνση:</label><br>
+        <select name="department" id="department">
+            <option value="" default="">Επιλέξτε Διεύθυνση</option>
+            <option value="4">Διεύθυνση Οικονομικών Υπηρεσιών</option>
+            <option value="1">Διεύθυνση Διοικητικού</option>
+            <option value="12">Σχολή Μηχανολόγων Μηχανικών</option>
+            <option value="11">Σχολή Αρχιτεκτόνων</option>
+        </select><br>
+
+        <select name="subdepartmentID" id="subdepartmentID">
+            <option value="" default="">Επιλέξτε Τμήμα</option>
+            <option value="626847faaf3424680369ca33">Τμήμα Διαχείρισης Περιουσίας</option>
+            <option value="626847faaf3424680369ca34">Τμήμα Προμηθειών</option>
+            <option value="62d1a41bf5df7069370d8e15">Βλάβες</option>
+            <option value="62c5ac2dfe9d90d5580a5fca">Τμήμα Διοικητικού Προσωπικού</option>
+            <option value="62c5ac7dfe9d90d5580a5fcb">Τμήμα ΕΔΙΠ</option>
+            <option value="62cefa558e311e069500cbe6">Γραμματεία Προπτυχιακών</option>
+            <option value="62cefa9d8e311e069500cbe7">Γραμματεία Μεταπτυχιακών</option>
+            <option value="62d83e6797172bab680d50fb">Γραμματεία Προπτυχιακών</option>
+            <option value="62d83e7f97172bab680d50fc">Γραμματεία Μεταπτυχιακών</option>
+        </select><br>
+
+        <label for="name">Όνομα:</label><br>
+        <input type="text" name="name" id="name"><br>
+
+        <input type="submit" name="Submit" value="Submit">
+    </form>
+
+    <hr>
+
+    <table border="1px">
+        <tbody>
+            <tr>
+                <th>Διεύθυνση</th>
+                <th>Αναγνωριστικό</th>
+                <th>Τμήματα</th>
+                <th>Κατηγορίες</th>
+            </tr>
+            <tr>
+                <td>Διεύθυνση Οικονομικών Υπηρεσιών</td>
+                <td>4</td>
+                <td>
+                    Τμήμα Διαχείρισης Περιουσίας<br>
+                    Τμήμα Προμηθειών<br>
+                    Βλάβες<br>
+                </td>
+                <td>
+                    Βραβεία-Προκηρύξεις κληροδοτημάτων<br>
+                    Υποτροφίες<br>
+                    Προκηρύξεις<br>
+                    Συμβάσεις<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Διεύθυνση Διοικητικού</td>
+                <td>1</td>
+                <td>
+                    Τμήμα Διοικητικού Προσωπικού<br>
+                    Τμήμα ΕΔΙΠ<br>
+                </td>
+                <td>Γενικές Ανακοινώσεις<br></td>
+            </tr>
+            <tr>
+                <td>Σχολή Μηχανολόγων Μηχανικών</td>
+                <td>12</td>
+                <td>
+                    Γραμματεία Προπτυχιακών<br>
+                    Γραμματεία Μεταπτυχιακών<br>
+                </td>
+                <td>Ανακοινώσεις Γενικές<br></td>
+            </tr>
+            <tr>
+                <td>Σχολή Αρχιτεκτόνων</td>
+                <td>11</td>
+                <td>
+                    Γραμματεία Προπτυχιακών<br>
+                    Γραμματεία Μεταπτυχιακών<br>
+                </td>
+                <td>
+                    Ανακοινώσεις Προπτυχιακών<br>
+                    Ανακοινώσεις Προπτυχιακών<br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="../index.html">Επιστροφή</a></p>
+</body>
+</html>

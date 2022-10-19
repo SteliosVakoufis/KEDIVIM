@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Παράδειγμα 7</title>
+		<script src="example8.js"></script>
+	</head>
+	<body>
+		<p>Παράδειγμα 7</p>
+		<p>
+			<script >
+			var menu_array = [];
+			var date_array = [];
+			
+			for (let i in customers){ 
+				let orders = customers[i]['orders']
+				for (let x in orders){
+					if (orders[x]['menu']=="μενού_1"){
+						menu_array.push({
+							"firstname": customers[i]['firstname'],
+							"lastname": customers[i]['lastname'],
+							"menu": orders[x]['menu'],
+							"date": orders[x]['date']
+						});
+					}
+					if (orders[x]['date']=="1/5/2019"){
+						date_array.push({
+							"firstname": customers[i]['firstname'],
+							"lastname": customers[i]['lastname'],
+							"menu": orders[x]['menu'],
+							"date": orders[x]['date']
+						});
+					}
+				};
+			};
+			console.log(menu_array);
+			console.log(date_array);
+			document.write(JSON.stringify(menu_array));
+			document.write("<br><br>");
+			document.write(JSON.stringify(date_array));
+			</script>
+		</p>
+	</body>
+</html>

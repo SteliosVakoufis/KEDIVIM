@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <main>
+        <div class="container px-4 p-2 my-3 mx-auto border shadow">
+            <form>
+                <div class="my-1">
+                    <select name="country">
+                        <option value="italy">Italy</option>
+                        <option value="france">France</option>
+                        <option value="spain">Spain</option>
+                    </select>
+                </div>
+
+                <div class="my-1">
+                    <input type="radio" name="transport" value="an airplane"> Airplane
+                    <input type="radio" name="transport" value="a train"> Train
+                    <input type="radio" name="transport" value="a car"> Car
+                </div>
+
+                <div class="my-1">
+                    <input type="checkbox" name="belongings" value="an umbrella"> Umbrella
+                    <input type="checkbox" name="belongings" value="a raincoat"> Raincoat
+                    <input type="checkbox" name="belongings" value="a hat"> Hat
+                </div>
+
+                <p class="my-1">I am traveling at 
+                    <span class="text-danger" id="countrySpan"></span> with 
+                    <span class="text-danger" id="transportSpan"></span> having with me
+                    <span class="text-danger" id="belongingsSpan"></span>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <script>
+        $("select[name='country']").change(function () {
+            $("#countrySpan").html($(this).val());
+        });
+
+        $("input:radio[name='transport']").change(function () {
+            $("#transportSpan").html($(this).val());
+        });
+
+        $("input:checkbox[name='belongings']").change(function () {
+            $("#belongingsSpan").html($(this).val());
+        });
+    </script>
+
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

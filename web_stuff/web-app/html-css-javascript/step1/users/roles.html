@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Χρήστες - Σύστημα Ανακοινώσεων</title>
+</head>
+<body>
+    <a href="https://aueb.gr/" target="_blank">
+        <img src="../../img/hermis_logo.jpg" alt="Οικονομικό Πανεπιστήμιο Αθηνών" width="50px" height="auto">
+    </a>
+    <a href="../index.html">
+        <img src="../../img/home-icon.png" alt="Οικονομικό Πανεπιστήμιο Αθηνών" width="30px" height="auto">
+    </a>
+    <a href="users.html">Χρήστες</a>
+    <a href="roles.html">Ρόλοι</a>
+    <a href="users-category.html">Κατηγορίες Χρηστών</a>
+
+    <p>Ρόλοι Χρηστών</p>
+
+    <form method="post" action="">
+        <label for="username">Username:</label><br>
+        <select name="useranme" id="username">
+            <option value="xxxx1">xxxx1</option>
+            <option value="xxxx2">xxxx2</option>
+            <option value="xxxx3">xxxx3</option>
+            <option value="xxxx4">xxxx4</option>
+        </select><br>
+        
+        <br>
+        <label for="roles">Ρόλος:</label><br>
+        <input type="radio" name="roles" id="admin" value="admin">
+        <label for="admin">Διαχειριστής</label><br>
+        <input type="radio" name="roles" id="editor" value="editor">
+        <label for="admin">Συγγραφέας</label><br>
+
+        <!-- <br>
+        <input type="checkbox" id="admin" name="admin" value="admin">
+        <label for="vehicle1">Διαχειριστής</label><br>
+        <input type="checkbox" id="editor" name="editor" value="editor">
+        <label for="vehicle2">Συγγραφέας</label><br> -->
+
+        <br>
+        <input type="submit" name="Submit" value="Submit">
+    </form>
+      
+    <hr>
+    
+    <table>
+        <tr>
+            <th>Username</th>
+            <th>Όνομα</th>
+            <th>Επίθετο</th>
+            <th>Κατηγορία</th>
+            <th>Email</th>
+            <th>Ρόλος</th>
+        </tr>
+        <tr>
+            <td>admin</td>
+            <td>admin1</td>
+            <td>admin1</td>
+            <td>Διοικητικός</td>
+            <td>admin1@aueb.gr</td>
+            <td>Διαχειριστής</td>
+        </tr>
+        <tr>
+            <td>xxxx1</td>
+            <td>Όνομα1</td>
+            <td>Επίθετο1</td>
+            <td>Διοικητικός</td>
+            <td>xxxx1@aueb.gr</td>
+            <td>Συγγραφέας</td>
+        </tr>
+        <tr>
+            <td>xxxx2</td>
+            <td>Όνομα2</td>
+            <td>Επίθετο2</td>
+            <td>ΔΕΠ</td>
+            <td>xxxx2@aueb.gr</td>
+            <td>Αναγνώστης</td>
+        </tr>
+        <tr>
+            <td>xxxx3</td>
+            <td>Όνομα3</td>
+            <td>Επίθετο3</td>
+            <td>ΕΔΙΠ</td>
+            <td>xxxx3@aueb.gr</td>
+            <td>Συγγραφέας</td>
+        </tr>
+        <tr>
+            <td>xxxx4</td>
+            <td>Όνομα4</td>
+            <td>Επίθετο4</td>
+            <td>ΕΤΕΠ</td>
+            <td>xxxx4@aueb.gr</td>
+            <td>Αναγνώστης</td>
+        </tr>
+    </table>
+
+    <p><a href="../index.html">Επιστροφή</a></p>
+</body>
+</html>

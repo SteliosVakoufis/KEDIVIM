@@ -1,0 +1,26 @@
+<html>
+	<head><script src="jquery-3.6.1.min.js"></script></head>
+	<body>
+		<button id="clickMe">Πατήστε εδώ</button>
+		<p>Έχετε πατήσει το κουμπί <span id="numClicks">0 φορές</span></p>
+		<script>
+			var clicks = 0;
+			
+			function clickHandler() {
+				clicks++;
+				var numClicksSpan = $('#numClicks'); //document.getElementById('numClicks');
+				
+				if (clicks == 1)
+					numClicksSpan.html('μία φορά'); //numClicksSpan.innerHTML = 'μία φορά';
+				else	
+					numClicksSpan.html(clicks + ' φορές'); //numClicksSpan.innerHTML = clicks + ' φορές';
+			}
+			
+			
+			//var button = document.getElementById('clickMe');
+			//button.addEventListener('click', clickHandler);
+			
+			$('#clickMe').click(clickHandler);
+		</script>
+	</body>
+</html>

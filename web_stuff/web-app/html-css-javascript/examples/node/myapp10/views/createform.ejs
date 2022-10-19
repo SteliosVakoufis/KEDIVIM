@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>My Application</title>
+	</head>
+	<body>
+		<p>Δημιουργία Συνταγής</p>
+		
+		<form method="post" action="/create_recipe">
+			Τίτλος: <input type="text" name="title"><br>
+			Περιγραφή: <input type="text" name="description"><br>
+			Οδηγίες: <input type="text" name="instruction"><br>
+			
+			<p>
+				Συστατικά 1: <br>	
+				Συστατικό: <input type="text" name="ingredients[0][ingredient]"><br>
+				Ποσότητα: <input type="text" name="ingredients[0][quantity]">
+			</p>
+			<p>
+				Συστατικά 2: <br>	
+				Συστατικό: <input type="text" name="ingredients[1][ingredient]"><br>
+				Ποσότητα: <input type="text" name="ingredients[1][quantity]">
+			</p>
+			<input type="submit" value="Υποβολή">
+			<input type="reset" value="Καθάρισμα">
+		</form>
+		<p><a href="/main">Επιστροφή</a></p>
+	</body>
+</html>

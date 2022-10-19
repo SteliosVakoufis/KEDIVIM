@@ -1,0 +1,18 @@
+<html>
+	<head><script src="jquery-3.6.1.min.js"></script></head>
+	<body>
+		<input id="itemField"></input>
+		
+		<ul><span id="list"></span></ul>
+		
+		<script>
+			function keyPressHandler(e){
+				if (e.keyCode == 13) {
+					$('#list').append('<li>' + $('#itemField').val() + '</li>');
+					$('#itemField').val('');
+				}
+			}
+			$('#itemField').keyup(keyPressHandler);
+		</script>
+	</body>
+</html>

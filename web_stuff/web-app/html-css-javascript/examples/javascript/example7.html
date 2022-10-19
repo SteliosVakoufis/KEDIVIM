@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Παράδειγμα 7</title>
+	</head>
+	<body>
+		<p>Παράδειγμα 7</p>
+		<p>
+			<script >
+			var library = [ 
+				{
+					title: 'Bill Gates',
+					author: 'The Road Ahead',
+					readingStatus: true
+				},
+				{
+					title: 'Steve Jobs',
+					author: 'Walter Isaacson',
+					readingStatus: true
+				},
+				{
+					title: 'Mockingjay: The Final Book of The Hunger Games',
+					author: 'Suzanne Collins',
+					readingStatus: false
+				}];
+
+			for (var i = 0; i < library.length; i++) 
+			{
+				var book = "'" + library[i].title + "'" + ' by ' + library[i].author + ".";
+				if (library[i].readingStatus) {
+					console.log("Already read " + book);
+					document.write("Already read " + book + "<br>");
+				} else 	{
+					console.log("You still need to read " + book);
+					document.write("You still need to read " + book + "<br>");
+				}
+			}
+			</script>
+		</p>
+	</body>
+</html>

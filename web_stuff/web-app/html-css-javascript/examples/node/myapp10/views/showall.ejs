@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>My Application</title>
+	</head>
+	<body>
+		<p>Εμφάνιση χρηστών</p>
+		
+		<% if (customer) { %>
+			<ul>
+				<% customer.forEach((person) =>{ %>
+						<li>
+							<a href="/updateform?name=<%= person.firstname %>"><%= person.firstname %></a>
+							<%= person.age %>,
+							<a href="/delete?name=<%= person.firstname %>">(διαγραφή)</a>
+						</li>
+				<%	}); %>
+			</ul>
+		<% } else {%>
+			<h2>Δεν υπάρχουν χρήστες</h2>
+		<% } %>
+		<p><a href="/main">Επιστροφή</a></p>
+	</body>
+</html>

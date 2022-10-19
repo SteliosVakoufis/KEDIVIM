@@ -1,0 +1,29 @@
+<html>
+	<body>
+		<div id="mouseOverMe">Μετακινήστε το ποντίκι εδώ!</div>
+		<p><div class="highlightText"> Αυτό είναι ένα κείμενο</div></p>
+		<p><div>Αυτό είναι άλλο κείμενο</div></p>
+		<p><div class="highlightText"> Και αυτό είναι σημαντικό κείμενο</div></p>
+		<script>
+			function makeBold(){
+				var divs = document.getElementsByClassName('highlightText');
+				for (var i=0; i<divs.length; i++) {
+					divs[i].style.color = 'red';
+					divs[i].style.fontWeight = 'bold';
+				}
+			}
+			
+			function restore(){
+				var divs = document.getElementsByClassName('highlightText');
+				for (var i=0; i<divs.length; i++) {
+					divs[i].style.color = 'black';
+					divs[i].style.fontWeight = 'normal';
+				}
+			}
+			
+			var mouseOverMeDiv = document.getElementById('mouseOverMe');
+			mouseOverMeDiv.addEventListener('mouseover', makeBold);
+			mouseOverMeDiv.addEventListener('mouseout', restore);
+		</script>
+	</body>
+</html>
