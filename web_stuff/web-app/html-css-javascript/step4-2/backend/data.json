@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "username": "admin",
+            "name": "admin1",
+            "surname": "admin1",
+            "category": "Διοικητικός",
+            "email": "admin1@aueb.gr"
+        },
+        {
+            "username": "xxxx1",
+            "name": "Όνομα1",
+            "surname": "Επίθετο1",
+            "category": "Διοικητικός",
+            "email": "xxxx1@aueb.gr"
+        },
+        {
+            "username": "xxxx2",
+            "name": "Όνομα2",
+            "surname": "Επίθετο2",
+            "category": "ΔΕΠ",
+            "email": "xxxx2@aueb.gr"
+        },
+        {
+            "username": "xxxx3",
+            "name": "Όνομα3",
+            "surname": "Επίθετο3",
+            "category": "ΕΔΙΠ",
+            "email": "xxxx3@aueb.gr"
+        },
+        {
+            "username": "xxxx4",
+            "name": "Όνομα4",
+            "surname": "Επίθετο4",
+            "category": "ΕΤΕΠ",
+            "email": "xxxx4@aueb.gr"
+        }
+    ]
+}

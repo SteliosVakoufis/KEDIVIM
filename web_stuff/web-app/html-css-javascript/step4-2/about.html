@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- CSS only -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+         <!-- JavaScript Bundle with Popper -->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Σύστημα Ανακοινώσεων</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #333;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://aueb.gr/" target="_blank"><img src="../img/hermis_logo.jpg" alt="Οικονομικό Πανεπιστήμιο Αθηνών" width="48" height="auto"></a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="fa fa-fw fa-home"></i>Αρχική</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Χρήστες
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="users/users.html">Χρήστες</a></li>
+                                <li><a class="dropdown-item" href="users/roles.html">Ρόλοι</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="users/users-category.html">Κατηγορίες Χρηστών</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Υπηρεσίες Ιδρύματος
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="departments/departments.html">Διευθύνσεις</a></li>
+                                <li><a class="dropdown-item" href="departments/subdepartments.html">Τμήματα</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="departments/categories.html">Κατηγορίες</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ανακοινώσεις
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="announcements/announcements.html">Δημιουργία Ανακοινώσεων</a></li>
+                                <li><a class="dropdown-item" href="announcements/subscription.html">Εγγραφή σε λίστα</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="nav-link text-light text-opacity-50" href="about.html">Επικοινωνία</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container border bg-light py-3 my-3 shadow p-3 mb-5 bg-body rounded">
+            <h1>Επικοινωνία</h1>
+            
+            <h2>Επικοινωνία με γραμματέα σχολής και γραμματεία κοσμήτορα</h2>
+
+            <p>
+                <table class="table">
+                    <!-- Μπήκε το thead και αλλάξε όλο το tr με th και scope -->
+                    <thead>
+                        <tr>
+                            <th scope="col">Σχολή</th>
+                            <th scope="col">Τηλέφωνο</th>
+                            <th scope="col">E-mail</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td colspan="3"><strong>Οικονομικών Επιστημών</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Γραμματέας Σχολής</td>
+                            <td>210 8203 107</td>
+                            <td><a href="mailto:secr_soe@aueb.gr" rel="noreferrer">soe@aueb.gr</a></td>
+                        </tr>
+                        <tr>
+                            <td>Γραμματεία Κοσμήτορα</td>
+                            <td>210 8203 107</td>
+                            <td><a href="mailto:secr_soe@aueb.gr" rel="noreferrer">soe@aueb.gr</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><strong>Διοίκησης Επιχειρήσεων</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Γραμματέας Σχολής</td>
+                            <td>210 8203 101</td>
+                            <td><a href="mailto:sb@aueb.gr" rel="noreferrer">sb@aueb.gr</a></td>
+                        </tr>
+                        <tr>
+                            <td>Γραμματεία Κοσμήτορα</td>
+                            <td>210 8203 102</td>
+                            <td><a href="mailto:sb@aueb.gr" rel="noreferrer">sb@aueb.gr</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><strong>Επιστημών και Τεχνολογίας της Πληροφορίας</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Γραμματέας Σχολής</td>
+                            <td>210 8203 426</td>
+                            <td><a href="mailto:sist@aueb.gr">sist@aueb.gr</a></td>
+                        </tr>
+                        <tr>
+                            <td>Γραμματεία Κοσμήτορα</td>
+                            <td>210 8203 393</td>
+                            <td><a href="mailto:sist@aueb.gr">sist@aueb.gr</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </p>
+
+            <h2>Eπικοινωνία με γραμματεία τμήματος</h2>
+            <dl class="row border border-dark border-2">
+                <dt class="col-sm-4 text-right"><a class="link-secondary" href="https://www.dept.aueb.gr/deos">Διεθνών και Ευρωπαϊκών Οικονομικών Σπουδών</a></dt>
+                <dd class="col-sm-8 text-left">
+                    <ul>
+                        <li>2108203 106</li>
+                        <li>2108203 108</li>
+                        <li>2108203 425</li>
+                        <li>2108203 107</li>
+                    </ul>
+                    <p>Email: <a href="mailto:deossecr@aueb.gr">deossecr@aueb.gr</a></p>
+                </dd>
+
+                <dt class="col-sm-4 text-right"><a class="link-secondary" href="https://www.dept.aueb.gr/econ">Οικονομικής Επιστήμης</a></dt>
+                <dd class="col-sm-8 text-left">
+                    <ul>
+                        <li>2108203 305</li>
+                        <li>2108203 304</li>
+                        <li>2108203 410</li>
+                        <li>2108203 412</li>
+                    </ul>
+                    <p>Email: <a href="mailto:econ@aueb.gr">econ@aueb.gr</a></p>
+                </dd>
+
+                <dt class="col-sm-4 text-right"><a class="link-secondary" href="https://www.dept.aueb.gr/dmst">Διοικητικής Επιστήμης και Τεχνολογίας</a></dt>
+                <dd class="col-sm-8 text-left">
+                    <ul>
+                        <li>2108203 129</li>
+                        <li>2108203 408</li>
+                        <li>2108203 110</li>
+                    </ul>
+                    <p>Email: <a href="mailto:dmst@aueb.gr">dmst@aueb.gr</a></p>
+                </dd>
+
+                <dt class="col-sm-4 text-right"><a class="link-secondary" href="https://www.dept.aueb.gr/ode">Οργάνωσης και Διοίκησης Επιχειρήσεων</a></dt>
+                <dd class="col-sm-8 text-left">
+                    <ul>
+                        <li>2108203 308</li>
+                        <li>2108203 375</li>
+                        <li>2108203 309</li>
+                        <li>2108203 310</li>
+                    </ul>
+                    <p>Email: <a href="mailto:ode@aueb.gr">ode@aueb.gr</a></p>
+                </dd>
+
+                <dt class="col-sm-4 text-right"><a class="link-secondary" href="https://www.dept.aueb.gr/loxri">Λογιστικής και Χρηματοοικονομικής</a></dt>
+                <dd class="col-sm-8 text-left">
+                    <ul>
+                        <li>2108203 194</li>
+                        <li>2108203 302</li>
+                        <li>2108203 309</li>
+                        <li>2108203 300</li>
+                    </ul>
+                    <p>Email: <a href="mailto:accfin@aueb.gr">accfin@aueb.gr</a></p>
+                </dd>
+
+                <dt class="col-sm-4 text-right"><a class="link-secondary" href="https://www.dept.aueb.gr/mbc">Μάρκετινγκ και Επικοινωνίας</a></dt>
+                <dd class="col-sm-8 text-left">
+                    <ul>
+                        <li>2108203 102</li>
+                        <li>2108203 103</li>
+                        <li>2108203 101</li>
+                    </ul>
+                    <p>Email: <a href="mailto:secretary.marketing@aueb.gr">secretary.marketing@aueb.gr</a></p>
+                </dd>
+
+                <dt class="col-sm-4 text-right"><a class="link-secondary" href="https://www.dept.aueb.gr/cs">Πληροφορικής</a></dt>
+                <dd class="col-sm-8 text-left">
+                    <ul>
+                        <li>2108203 314</li>
+                        <li>2108203 315</li>
+                        <li>2108203 316</li>
+                    </ul>
+                    <p>Email: <a href="mailto:infotech@aueb.gr">infotech@aueb.gr</a></p>
+                </dd>
+
+                <dt class="col-sm-4 text-right"><a class="link-secondary" href="https://www.dept.aueb.gr/stat">Στατιστικής</a></dt>
+                <dd class="col-sm-8 text-left">
+                    <ul>
+                        <li>2108203 112</li>
+                        <li>2108203 113</li>
+                        <li>2108203 111</li>
+                    </ul>
+                    <p>Email: <a href="mailto:stat@aueb.gr">stat@aueb.gr</a></p>
+                </dd>
+            </dl>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Πρόσβαση</h3>
+                    <p>Οικονομικό Πανεπιστήμιο Αθηνών</p>
+                </div>
+                <div class="col-md-8">
+                    <iframe src="https://www.google.com/maps/d/embed?hl=el&amp;mid=19ijzMmn6HB5BMshhcPtTTMyTOy-N_Yj1" title="Χάρτης Πρόσβασης" width="50%" height="280"></iframe>
+                </div>
+            </div>
+    
+        </div>
+    </body>
+</html>
