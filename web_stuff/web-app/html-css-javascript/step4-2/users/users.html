@@ -160,10 +160,6 @@
 
 <script>
     $(document).ready(() => {
-        getData();
-    });
-
-    function getData() {
         $.ajax({
             url: "http://localhost:3000/user/findAll",
             type: "get",
@@ -176,12 +172,57 @@
                 console.log("Error in getData()");
             } else {
                 createTbody(data)
-                // data = JSON.parse(data);
-                // console.log(data);
+
+                $("#tbody").on("click", ".btnDelete", () => {
+                    let username = $(this).val();
+
+                    $.ajax({
+                        url: "http://localhost:3000/user/delete?" + $.param({ "username": username }),
+                        type: "delete",
+                        dataType: "JSON"
+                    })
+                        .done(function (response) {
+                            const data = response.data
+                            createTbody(data)
+                        });
+                })
+            }
+        });
+
+        $(".row").on("click", ".btnSubmit", () => {
+            let username = $("#username").val();
+            let name = $("#name").val();
+            let surname = $("#surname").val();
+            let category = $("#category option:selected").val();
+            let email = $("#email").val();
+
+            let item = {
+                "username": username,
+                "name": name,
+                "surname": surname,
+                "category": category,
+                "email": username
             }
 
-        });
-    }
+            $.ajax({
+                url: "http://localhost:3000/user/create",
+                type: "post",
+                dataType: "JSON",
+                data: item
+            })
+                .done((response) => {
+                    let status = response.status;
+                    let data = response.data;
+
+                    if (status) {
+                        console.log(`response >> ${data.data}`);
+                        createTbody(data.data);
+                    } else {
+                        console.log("Problem in create...?");
+                    }
+                });
+        })
+    });
 
     function createTbody(data) {
 

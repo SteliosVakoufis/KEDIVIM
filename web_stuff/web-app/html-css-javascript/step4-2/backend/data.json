@@ -34,6 +34,13 @@
             "surname": "Επίθετο4",
             "category": "ΕΤΕΠ",
             "email": "xxxx4@aueb.gr"
+        },
+        {
+            "username": "JackD",
+            "name": "Jack",
+            "surname": "Daniels",
+            "category": "Προπτυχιακός",
+            "email": "JackD"
         }
     ]
 }
