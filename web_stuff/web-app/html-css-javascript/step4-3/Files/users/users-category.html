@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Χρήστες - Σύστημα Ανακοινώσεων</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #333;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://aueb.gr/" target="_blank"><img src="../../img/hermis_logo.jpg" alt="Οικονομικό Πανεπιστήμιο Αθηνών" width="48" height="auto"></a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html"><i class="fa fa-fw fa-home"></i>Αρχική</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Χρήστες
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../users/users.html">Χρήστες</a></li>
+                            <li><a class="dropdown-item" href="../users/roles.html">Ρόλοι</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="../users/users-category.html">Κατηγορίες Χρηστών</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Υπηρεσίες Ιδρύματος
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../departments/departments.html">Διευθύνσεις</a></li>
+                            <li><a class="dropdown-item" href="../departments/subdepartments.html">Τμήματα</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="../departments/categories.html">Κατηγορίες</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ανακοινώσεις
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../announcements/announcements.html">Δημιουργία Ανακοινώσεων</a></li>
+                            <li><a class="dropdown-item" href="../announcements/subscription.html">Εγγραφή σε λίστα</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a class="nav-link text-light text-opacity-50" href="../about.html">Επικοινωνία</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container border bg-light py-3 my-3">
+        <h2>Κατηγορίες Χρηστών</h2>
+
+        <form method="post" action="">
+            <div class="mb-3">
+                <label for="identifier" class="form-label">Αναγνωριστικό</label>
+                <input type="number" class="form-control" name="identifier" id="identifier" aria-describedby="identifierHelp">
+                <div id="usernameHelp" class="form-text">Πληκτρολογήστε το identifier που επιθυμείτε.</div>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Όνομα</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Εισαγεται όνομα"">
+            </div>
+
+            <input class="btn btn-primary" type="submit" name="Submit" value="Submit">
+        </form>
+    </div>  
+    
+    <hr>
+    
+    <h3 class="text-center">Unordered list</h3>
+    <div class="row row-cols-3 justify-content-center w">
+        <ul class="list-group">
+            <li class="list-group-item"><strong>Αναγνωριστικό:</strong> 1, <strong>Όνομα:</strong> Προπτυχιακός</li>
+            <li class="list-group-item"><strong>Αναγνωριστικό:</strong> 2, <strong>Όνομα:</strong> Μεταπτυχιακός</li>
+            <li class="list-group-item"><strong>Αναγνωριστικό:</strong> 3, <strong>Όνομα:</strong> ΔΕΠ</li>
+            <li class="list-group-item"><strong>Αναγνωριστικό:</strong> 4, <strong>Όνομα:</strong> ΕΔΙΠ</li>
+        </ul>
+    </div>
+    <br>
+    <h3 class="text-center">Ordered list</h3>
+    <div class="row row-cols-3 justify-content-center w">
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item"><strong>Αναγνωριστικό:</strong> 1, <strong>Όνομα:</strong> Προπτυχιακός</li>
+            <li class="list-group-item"><strong>Αναγνωριστικό:</strong> 2, <strong>Όνομα:</strong> Μεταπτυχιακός</li>
+            <li class="list-group-item"><strong>Αναγνωριστικό:</strong> 3, <strong>Όνομα:</strong> ΔΕΠ</li>
+            <li class="list-group-item"><strong>Αναγνωριστικό:</strong> 4, <strong>Όνομα:</strong> ΕΔΙΠ</li>
+        </ol>
+    </div>
+
+    <br>
+    <h3 class="text-center">Description list</h3>
+    <div class="row row-cols-2 justify-content-center w">
+        <dl class="row">
+            <dt class="col-sm-3 text-right"><strong>Αναγνωριστικό:</strong> 1</dt>
+            <dd class="col-sm-9 text-left"><strong>Όνομα:</strong> Προπτυχιακός</dd>
+            
+            <dt class="col-sm-3 text-right"><strong>Αναγνωριστικό:</strong> 2</dt>
+            <dd class="col-sm-9 text-left"><strong>Όνομα:</strong> Μεταπτυχιακός</dd>
+
+            <dt class="col-sm-3 text-right"><strong>Αναγνωριστικό:</strong> 3</dt>
+            <dd class="col-sm-9 text-left"><strong>Όνομα:</strong> ΔΕΠ</dd>
+            
+            <dt class="col-sm-3 text-right"><strong>Αναγνωριστικό:</strong> 4</dt>
+            <dd class="col-sm-9 text-left"><strong>Όνομα:</strong> ΕΔΙΠ</dd>
+        </dl>
+    </div>
+
+    <p><a href="../index.html">Επιστροφή</a></p>
+</body>
+</html>

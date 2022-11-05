@@ -12,18 +12,50 @@ app.use(cors({
     origin: "*"
 }));
 
-app.post("/user/create", (req, res) => {
-    console.log("Insert User", req.body);
+app.use("/", express.static("./Files"));
 
-    const username = req.body.username;
+app.get("/user/findAll", (req, res) => {
+    console.log("Get all users");
+
+    User.find((err, allUsers) => {
+        if (err) {
+            console.log(`Error in find all users {err}`);
+            res.json({ "status": false, "data": err });
+        } else {
+            res.json({ "status": true, "data": allUsers });
+        }
+    });
+});
+
+app.get("/user/findOne", (req, res) => {
+    console.log("Gett one user");
+
+    const username = req.query.username;
+    console.log(`Find user with username: ${username}`);
+
+    User.findOne({ "username": username }, (err, user) => {
+        if (err) {
+            console.log(`Error in finding user. {err}`);
+            res.json({ "status": true, "data": username });
+        } else {
+            res.json({ "status": true, "data": user });
+        }
+    });
+
+});
+
+app.get("/user/create", (req, res) => {
+    console.log("Insert User", req.query.username);
+
+    const username = req.query.username;
     console.log(`Insert user with username: ${username}`);
 
     let newUser = new User({
         username: username,
-        name: req.body.name,
-        surname: req.body.surname,
-        category: req.body.category,
-        email: req.body.email
+        name: req.query.name,
+        surname: req.query.surname,
+        category: req.query.category,
+        email: req.query.email
     });
 
     newUser.save((err) => {
@@ -36,12 +68,48 @@ app.post("/user/create", (req, res) => {
     });
 });
 
-app.use("/", (req, res) => {
-    console.log("Hello MongoDB");
+app.delete("/user/delete", (req, res) => {
+    console.log("Deleting user", req.query.username);
 
-    res.send("Hello MongoDB");
+    const username = req.query.username;
+    console.log("Delete user " + username);
+
+    User.findOneAndRemove({ "username": username }, (err, user) => {
+        if (err) {
+            console.log(err);
+            res.json({ "status": false, "data": err });
+        } else {
+            res.json({ "status": true, "data": user });
+        }
+    });
 });
 
-app.listen(3000, () => {
-    console.log("Listening on port 3000");
+app.post("/user/update", async (req, res) => {
+    console.log("Updating user", req.body.username);
+
+    const username = req.body.username;
+
+    const filter = { "username": username };
+    const update = {
+        "name": req.body.name,
+        "email": req.body.email,
+        "surname": req.body.surname,
+        "category": req.body.category
+    };
+
+    let success = await User.findOneAndUpdate(filter, update, { new: true });
+
+    console.log(success);
+
+    if (success) {
+        res.json({ "status": true, "data": {} });
+    } else {
+        console.log("Error updating user.");
+        res.json({ "status": false, "data": "Error updating user" });
+    }
+
+});
+
+app.listen(process.env.PORT || 5000, () => {
+    console.log("Listening on port");
 })
