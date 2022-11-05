@@ -4,17 +4,17 @@
     {
         static void Main(string[] args)
         {
-            CheckType<MyClass1>();
+
         }
 
         private static void CheckType<T>()
         {
             Console.WriteLine(typeof(T));
-            if (typeof(T) is MyClass1)
+            if (typeof(T) == typeof(MyClass1))
             {
                 Console.WriteLine("It's class1");
             }
-            else if (typeof(T) is MyClass2)
+            else if (typeof(T) == typeof(MyClass2))
             {
                 Console.WriteLine("It's class2");
             }
